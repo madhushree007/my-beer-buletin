@@ -1,0 +1,1913 @@
+[
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5daf3e51b0c0bc90be",
+    "bid": 454190,
+    "__v": 0,
+    "beer_abv": 7.77,
+    "beer_description": "A robust malt profile balanced with bold notes of spicy, floral hops and plenty of bitterness from seven varieties of hops grown on Rogue Farms.",
+    "beer_ibu": 76,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-454190_177be_sm.jpeg",
+    "beer_name": "7 Hop IPA",
+    "beer_slug": "rogue-ales-7-hop-ipa",
+    "beer_style": "IPA - American",
+    "brewery": {
+      "contact": {
+        "twitter": "rogueales",
+        "facebook": "https://www.facebook.com/RogueAlesSpirits/",
+        "instagram": "rogueales",
+        "url": "http://www.rogue.com/"
+      },
+      "location": {
+        "brewery_city": "Newport",
+        "brewery_state": "OR",
+        "lat": 44.6202,
+        "lng": -124.052
+      },
+      "_id": "5fb8db5daf3e51b0c0bc90b6",
+      "brewery_id": 4565,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-4565_45182.jpeg",
+      "brewery_name": "Rogue Ales",
+      "brewery_page_url": "/rogueales",
+      "brewery_slug": "rogue-ales",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8d599af3e51b0c0bb1584",
+    "bid": 183552,
+    "__v": 0,
+    "beer_abv": 4.8,
+    "beer_description": "A ridable American Wheat Ale boasting wheatey\r\nnuts & juicy Motueka hop bolts. The deliverer of this truth: Akari Shogun, He who harnesses light will usher this summer force into your life.",
+    "beer_ibu": 0,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-AkariShogun_183552.jpeg",
+    "beer_name": "Akari Shogun",
+    "beer_slug": "half-acre-beer-company-akari-shogun",
+    "beer_style": "Wheat Beer - American Pale Wheat",
+    "brewery": {
+      "contact": {
+        "twitter": "halfacrebeer",
+        "facebook": "https://www.facebook.com/HalfAcreBeer",
+        "instagram": "halfacrebeer",
+        "url": "http://halfacrebeer.com/"
+      },
+      "location": {
+        "brewery_city": "Chicago",
+        "brewery_state": "IL",
+        "lat": 41.9595,
+        "lng": -87.6826
+      },
+      "_id": "5fb8d596af3e51b0c0bb13a6",
+      "brewery_id": 1862,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-1862_d6728.jpeg",
+      "brewery_name": "Half Acre Beer Company",
+      "brewery_page_url": "/halfacrebeerco",
+      "brewery_slug": "half-acre-beer-company",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5faf3e51b0c0bc9232",
+    "bid": 6929,
+    "__v": 0,
+    "beer_abv": 6.5,
+    "beer_description": "Our take on the Left Coast IPA with flavors of citrus and pine with a well-balanced bitterness that will put a smile on your face.",
+    "beer_ibu": 70,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-6929_cc529_sm.jpeg",
+    "beer_name": "Be Hoppy",
+    "beer_slug": "wormtown-brewery-be-hoppy",
+    "beer_style": "IPA - American",
+    "brewery": {
+      "contact": {
+        "twitter": "WormtownBrewery",
+        "facebook": "https://www.facebook.com/wormtownbrewery",
+        "instagram": "WormtownBrewery",
+        "url": "http://wormtownbrewery.com"
+      },
+      "location": {
+        "brewery_city": "Worcester",
+        "brewery_state": "MA",
+        "lat": 42.2635,
+        "lng": -71.7914
+      },
+      "_id": "5fb8db5faf3e51b0c0bc9228",
+      "brewery_id": 2302,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-2302_17efc.jpeg",
+      "brewery_name": "Wormtown Brewery",
+      "brewery_page_url": "/WormtownBrewery",
+      "brewery_slug": "wormtown-brewery",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5eaf3e51b0c0bc9156",
+    "bid": 533372,
+    "__v": 0,
+    "beer_abv": 6.4,
+    "beer_description": "We created this Winter IPA to toast hop growers around the world for another successful harvest. This storm of hoppy citrus and pine notes is a bright reminder the end of the Hop Cycle is only the beginning.  #4 of 4 in our Hop Cycle seasonal series.",
+    "beer_ibu": 80,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-533372_e6293_sm.jpeg",
+    "beer_name": "Blizzard of Hops",
+    "beer_slug": "troegs-independent-brewing-blizzard-of-hops",
+    "beer_style": "IPA - American",
+    "brewery": {
+      "contact": {
+        "twitter": "TroegsBeer",
+        "facebook": "https://www.facebook.com/troegsbeer/",
+        "instagram": "troegsbeer",
+        "url": "http://www.troegs.com/"
+      },
+      "location": {
+        "brewery_city": "Hershey",
+        "brewery_state": "PA",
+        "lat": 40.2933,
+        "lng": -76.6576
+      },
+      "_id": "5fb8db5eaf3e51b0c0bc914a",
+      "brewery_id": 2583,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-2583_46be7.jpeg",
+      "brewery_name": "Tröegs Independent Brewing",
+      "brewery_page_url": "/troegsbrewingcompany",
+      "brewery_slug": "troegs-independent-brewing",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5faf3e51b0c0bc920d",
+    "bid": 172056,
+    "__v": 0,
+    "beer_abv": 7,
+    "beer_description": "An unfiltered deep golden ale made with malted two row barley and wheat. The brew is finished with Blood Orange zest, local Texas honey and other spices that bring special flavors to this unique beer.",
+    "beer_ibu": 20,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-172056_21cfd_sm.jpeg",
+    "beer_name": "Blood & Honey",
+    "beer_slug": "revolver-brewing-blood-and-honey",
+    "beer_style": "Wheat Beer - American Pale Wheat",
+    "brewery": {
+      "contact": {
+        "twitter": "RevolverBrewing",
+        "facebook": "https://www.facebook.com/pg/REVOLVERBREWING/events/?ref=page_internal",
+        "instagram": "RevolverBrewing",
+        "url": "http://www.revolverbrewing.com"
+      },
+      "location": {
+        "brewery_city": "Granbury",
+        "brewery_state": "TX",
+        "lat": 32.4189,
+        "lng": -97.6699
+      },
+      "_id": "5fb8db5faf3e51b0c0bc9204",
+      "brewery_id": 30341,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-RevolverBrewing_30341.jpeg",
+      "brewery_name": "Revolver Brewing",
+      "brewery_page_url": "/RevolverBrewing",
+      "brewery_slug": "revolver-brewing",
+      "brewery_type": "Macro Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8d598af3e51b0c0bb14e8",
+    "bid": 1824901,
+    "__v": 0,
+    "beer_abv": 8,
+    "beer_description": "The gnomes love Achouffe beers and the juicy cherries which grow in their magical land.  Every year they gather and store them in the attics at the brewery.  One day, after an abundant season, the floor gave way under the weight of the harvest, and some cherries fell into the Mc CHOUFFE brewing below.  Impish as ever, the gnomes kept quiet about the incident. Surprised to discover a glowing, ruby-tinted beer with a fruity taste, the master brewer decided to bottle it up. Enjoy Cherry CHOUFFE carefully to avoid staining your beard and always drink it in delightful company.",
+    "beer_ibu": 10,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1824901_89d1a_sm.jpeg",
+    "beer_name": "Cherry Chouffe",
+    "beer_slug": "brasserie-dachouffe-cherry-chouffe",
+    "beer_style": "Fruit Beer",
+    "brewery": {
+      "contact": {
+        "twitter": "LaChouffeGnome",
+        "facebook": "http://www.facebook.com/LaChouffe.beer",
+        "instagram": "chouffeusa",
+        "url": "http://www.achouffe.be"
+      },
+      "location": {
+        "brewery_city": "Achouffe",
+        "brewery_state": "Wallonie",
+        "lat": 50.151,
+        "lng": 5.74581
+      },
+      "_id": "5fb8d596af3e51b0c0bb1383",
+      "brewery_id": 11866,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-11866_217c7.jpeg",
+      "brewery_name": "Brasserie d'Achouffe",
+      "brewery_page_url": "/brasseriedachouffe",
+      "brewery_slug": "brasserie-d-achouffe",
+      "brewery_type": "Regional Brewery",
+      "country_name": "Belgium"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8013caf3e51b0c086f5ae",
+    "bid": 49567,
+    "__v": 0,
+    "beer_abv": 6.5,
+    "beer_description": "Brown ale with local wildflower honey. ",
+    "beer_ibu": 33,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-49567_81345_sm.jpeg",
+    "beer_name": "Chomolungma",
+    "beer_slug": "jackie-os-brewery-chomolungma",
+    "beer_style": "Brown Ale - American",
+    "brewery": {
+      "contact": {
+        "twitter": "jackieosbrewery",
+        "facebook": "http://www.facebook.com/JackieOsBrewery",
+        "instagram": "jackieosbrewery",
+        "url": "http://www.jackieos.com"
+      },
+      "location": {
+        "brewery_city": "Athens",
+        "brewery_state": "OH",
+        "lat": 39.3317,
+        "lng": -82.091
+      },
+      "_id": "5fb8013baf3e51b0c086f50b",
+      "brewery_id": 5083,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-5083_11517.jpeg",
+      "brewery_name": "Jackie O's Brewery",
+      "brewery_page_url": "/JackieOsBrewery",
+      "brewery_slug": "jackie-o-s-brewery",
+      "brewery_type": "Micro Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8d598af3e51b0c0bb14f3",
+    "bid": 1798,
+    "__v": 0,
+    "beer_abv": 6.66,
+    "beer_description": "CHOUFFE BOK 6666 is a seasonal beer brewed especially for the Netherlands. The \"Bok\" beers traditionally appear on the Dutch market at the end of September. CHOUFFE BOK 6666 stands out thanks to its coppery robe, its fresh, fruity nose and a pleasant roundness in the mouth, ending with a hint of bitterness.",
+    "beer_ibu": 19,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1798_c456c_sm.jpeg",
+    "beer_name": "Chouffe Bok 6666",
+    "beer_slug": "brasserie-dachouffe-chouffe-bok-6666",
+    "beer_style": "Bock - Single / Traditional",
+    "brewery": {
+      "contact": {
+        "twitter": "LaChouffeGnome",
+        "facebook": "http://www.facebook.com/LaChouffe.beer",
+        "instagram": "chouffeusa",
+        "url": "http://www.achouffe.be"
+      },
+      "location": {
+        "brewery_city": "Achouffe",
+        "brewery_state": "Wallonie",
+        "lat": 50.151,
+        "lng": 5.74581
+      },
+      "_id": "5fb8d596af3e51b0c0bb1383",
+      "brewery_id": 11866,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-11866_217c7.jpeg",
+      "brewery_name": "Brasserie d'Achouffe",
+      "brewery_page_url": "/brasseriedachouffe",
+      "brewery_slug": "brasserie-d-achouffe",
+      "brewery_type": "Regional Brewery",
+      "country_name": "Belgium"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8d597af3e51b0c0bb13f9",
+    "bid": 610857,
+    "__v": 0,
+    "beer_abv": 6,
+    "beer_description": "Only magical beings could imagine putting sunshine into a bottle of beer.  In Fairyland, a few gnomes found the best drink for sunny days: CHOUFFE Soleil.  This refreshing beer has delicious citrus flavours, with a touch of vanilla and peppery notes.  Luminous and slightly cloudy at the same time, CHOUFFE Soleil brings the sunshine.",
+    "beer_ibu": 20,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-610857_2cc3b_sm.jpeg",
+    "beer_name": "Chouffe Soleil",
+    "beer_slug": "brasserie-dachouffe-chouffe-soleil",
+    "beer_style": "Belgian Blonde",
+    "brewery": {
+      "contact": {
+        "twitter": "LaChouffeGnome",
+        "facebook": "http://www.facebook.com/LaChouffe.beer",
+        "instagram": "chouffeusa",
+        "url": "http://www.achouffe.be"
+      },
+      "location": {
+        "brewery_city": "Achouffe",
+        "brewery_state": "Wallonie",
+        "lat": 50.151,
+        "lng": 5.74581
+      },
+      "_id": "5fb8d596af3e51b0c0bb1383",
+      "brewery_id": 11866,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-11866_217c7.jpeg",
+      "brewery_name": "Brasserie d'Achouffe",
+      "brewery_page_url": "/brasseriedachouffe",
+      "brewery_slug": "brasserie-d-achouffe",
+      "brewery_type": "Regional Brewery",
+      "country_name": "Belgium"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5daf3e51b0c0bc90f3",
+    "bid": 185391,
+    "__v": 0,
+    "beer_abv": 5.5,
+    "beer_description": "Strong citrus hops balanced with malt breadiness. Citra Hopped Live is bright,\nrefreshing & loud. We cranked this pale ale up to 11 by adding a generous amount of Citra hops. With that in mind, we wanted the label to reflect the feeling of live music. Live pairs great with toetapping or headbanging to your favorite band on stage.",
+    "beer_ibu": 37,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-185391_93c6d_sm.jpeg",
+    "beer_name": "Citra Hopped Live Pale Ale",
+    "beer_slug": "southern-tier-brewing-company-citra-hopped-live-pale-ale",
+    "beer_style": "Pale Ale - American",
+    "brewery": {
+      "contact": {
+        "twitter": "stbcbeer",
+        "facebook": "https://www.facebook.com/stbcbeer/",
+        "instagram": "stbcbeer",
+        "url": "http://www.stbcbeer.com/"
+      },
+      "location": {
+        "brewery_city": "Lakewood",
+        "brewery_state": "NY",
+        "lat": 42.0889,
+        "lng": -79.3482
+      },
+      "_id": "5fb8db5daf3e51b0c0bc90eb",
+      "brewery_id": 4586,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-4586_47eba.jpeg",
+      "brewery_name": "Southern Tier Brewing Company",
+      "brewery_page_url": "/southerntierbrewing",
+      "brewery_slug": "southern-tier-brewing-company",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8013eaf3e51b0c086f6c0",
+    "bid": 20767,
+    "__v": 0,
+    "beer_abv": 4.5,
+    "beer_description": "Edelweiss Hofbräu ist naturtrüb und bernsteinfarben, geprägt von vollreifen Bananenaromen sowie fein eingebundener Kohlensäure, besticht durch besondere Vollmundigkeit im Nachtrunk.",
+    "beer_ibu": 0,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-20767_cdba6_sm.jpeg",
+    "beer_name": "Edelweiss Hofbräu",
+    "beer_slug": "brau-union-osterreich-edelweiss-hofbrau",
+    "beer_style": "Hefeweizen",
+    "brewery": {
+      "contact": {
+        "twitter": "",
+        "facebook": "http://www.facebook.com/Bierkultur.at",
+        "instagram": "",
+        "url": "http://www.brauunion.at"
+      },
+      "location": {
+        "brewery_city": "Linz",
+        "brewery_state": "Oberösterreich",
+        "lat": 48.2865,
+        "lng": 14.3085
+      },
+      "_id": "5fb8013caf3e51b0c086f554",
+      "brewery_id": 1768,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-BrauUnionOsterreichAg_1768.jpeg",
+      "brewery_name": "Brau Union Österreich",
+      "brewery_page_url": "/w/brau-union-sterreich/1768",
+      "brewery_slug": "brau-union-sterreich",
+      "brewery_type": "Macro Brewery",
+      "country_name": "Austria"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8110aaf3e51b0c08bc543",
+    "bid": 402,
+    "__v": 0,
+    "beer_abv": 7.7,
+    "beer_description": "Inspired by the traditional rustic brews of Belgium, our iconic American farmhouse saison is charmingly complex but eminently drinkable. \r\n\r\nArtfully spiced with coriander, ginger, orange peel and grains of paradise, its champagne-like effervescence leads to a crisp, dry finish, delighting discerning drinkers everywhere.  \r\n\r\nWhile delicious on its own, Hennepin pairs remarkably well with a variety of foods, complementing shellfish, barbecue, cheeses, charcuterie and a wide range of spicy fare.\r\n",
+    "beer_ibu": 24,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-402_a1975_sm.jpeg",
+    "beer_name": "Hennepin Farmhouse Saison",
+    "beer_slug": "brewery-ommegang-hennepin-farmhouse-saison",
+    "beer_style": "Farmhouse Ale - Saison",
+    "brewery": {
+      "contact": {
+        "twitter": "BreweryOmmegang",
+        "facebook": "http://www.facebook.com/ommegang",
+        "instagram": "breweryommegang",
+        "url": "http://www.ommegang.com/"
+      },
+      "location": {
+        "brewery_city": "Cooperstown",
+        "brewery_state": "NY",
+        "lat": 42.6818,
+        "lng": -74.9255
+      },
+      "_id": "5fb8110aaf3e51b0c08bc53b",
+      "brewery_id": 249,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-249_909c0.jpeg",
+      "brewery_name": "Brewery Ommegang",
+      "brewery_page_url": "/breweryommegang",
+      "brewery_slug": "brewery-ommegang",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8d56aaf3e51b0c0bb0c1b",
+    "bid": 5875,
+    "__v": 0,
+    "beer_abv": 5.2,
+    "beer_description": "This beer is available in multiple ABV's. It's all the same beer, and does not require seperate entries.\r\n5.2% ABV in bottle\r\n4.5% ABV on cask and in cans\r\n3.5% for the Swedish market\r\n\r\nTraditionally brewed to produce a wonderfully well balanced blend of smooth, rich & satisfying flavours from chocolate & crystal malts combined with a crisp, refreshing bitterness from Styrian, Goldings and Fuggles hops.\r\n\r\nA unique and original beer with a character not unlike the Hobgoblin himself - surprisingly likeable... once you get to know him...",
+    "beer_ibu": 32,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-5875_9fa04_sm.jpeg",
+    "beer_name": "Hobgoblin Legendary Ruby Beer",
+    "beer_slug": "wychwood-brewery-hobgoblin-legendary-ruby-beer",
+    "beer_style": "Brown Ale - English",
+    "brewery": {
+      "contact": {
+        "twitter": "hobgoblinbeer",
+        "facebook": "http://www.facebook.com/hobgoblinbeer",
+        "instagram": "hobgoblinbeer",
+        "url": "http://www.wychwood.co.uk"
+      },
+      "location": {
+        "brewery_city": "Witney",
+        "brewery_state": "Oxfordshire",
+        "lat": 51.7822,
+        "lng": -1.4902
+      },
+      "_id": "5fb8d56aaf3e51b0c0bb0c12",
+      "brewery_id": 1376,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-WychwoodBrewery_1376.jpeg",
+      "brewery_name": "Wychwood Brewery",
+      "brewery_page_url": "/WychwoodBrewery",
+      "brewery_slug": "wychwood-brewery",
+      "brewery_type": "Micro Brewery",
+      "country_name": "England"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5eaf3e51b0c0bc91a3",
+    "bid": 8314,
+    "__v": 0,
+    "beer_abv": 5.5,
+    "beer_description": "Dark beer existed in Bavaria long before light beer. This was the first type of beer to be brewed at Hofbräuhaus when it was founded. Today, when beer-lovers all over the world talk about dark beer, they usually mean a Munich style beer. Today, Hofbräu Dunkel - the archetypal Bavarian beer - is still as popular as ever. With its alcoholic content of around 5.5% volume and its spicy taste, it’s a refreshing beer that suits all kinds of occasions. A beer in the traditional Munich style! \r\n",
+    "beer_ibu": 23,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-HofbrauDunkel_8314.jpeg",
+    "beer_name": "Hofbräu Dunkel / Dunkel Gold",
+    "beer_slug": "staatliches-hofbrauhaus-munchen-hofbrau-dunkel-dunkel-gold",
+    "beer_style": "Lager - Munich Dunkel",
+    "brewery": {
+      "contact": {
+        "twitter": "HofbraeuhausMUC",
+        "facebook": "http://www.facebook.com/pages/Hofbräu-München/111046612332891",
+        "instagram": "",
+        "url": "http://www.hofbraeu-muenchen.de"
+      },
+      "location": {
+        "brewery_city": "Munich",
+        "brewery_state": "Bayern",
+        "lat": 48.144,
+        "lng": 11.6975
+      },
+      "_id": "5fb8db5daf3e51b0c0bc906f",
+      "brewery_id": 5566,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-StaatlichesHofbrauhausMunchen_5566.jpeg",
+      "brewery_name": "Staatliches Hofbräuhaus München",
+      "brewery_page_url": "/w/staatliches-hofbra-uhaus-ma-1-4-nchen/5566",
+      "brewery_slug": "staatliches-hofbra-uhaus-ma-1-4-nchen",
+      "brewery_type": "Micro Brewery",
+      "country_name": "Germany"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5faf3e51b0c0bc92a4",
+    "bid": 7834,
+    "__v": 0,
+    "beer_abv": 5.1,
+    "beer_description": "Die obergärige „Münchner Weisse“ ist der Geheimtipp für alle Weißbier­genießer, die spritzige, prickelnde Erfrischung schätzen. Hell bernsteinfarben mit einer cremigen Schaumkrone und einem harmonisch fruchtigen Bukett entfaltet sich „Münchner Weisse“ mit einem Alkoholgehalt von 5,1% Vol. im Glas. Ihr Geschmack ist feinhefig, spritzig, aromatisch-estrig und mit einem mild-süßlichen Ausklang. Ein erfrischendes Vergnügen!",
+    "beer_ibu": 14,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-7834_02d0c_sm.jpeg",
+    "beer_name": "Hofbräu Münchner Weisse / Münchner Kindl / Hefe Weizen",
+    "beer_slug": "staatliches-hofbrauhaus-munchen-hofbrau-munchner-weisse-munchner-kindl-hefe-weizen",
+    "beer_style": "Hefeweizen",
+    "brewery": {
+      "contact": {
+        "twitter": "HofbraeuhausMUC",
+        "facebook": "http://www.facebook.com/pages/Hofbräu-München/111046612332891",
+        "instagram": "",
+        "url": "http://www.hofbraeu-muenchen.de"
+      },
+      "location": {
+        "brewery_city": "Munich",
+        "brewery_state": "Bayern",
+        "lat": 48.144,
+        "lng": 11.6975
+      },
+      "_id": "5fb8db5daf3e51b0c0bc906f",
+      "brewery_id": 5566,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-StaatlichesHofbrauhausMunchen_5566.jpeg",
+      "brewery_name": "Staatliches Hofbräuhaus München",
+      "brewery_page_url": "/w/staatliches-hofbra-uhaus-ma-1-4-nchen/5566",
+      "brewery_slug": "staatliches-hofbra-uhaus-ma-1-4-nchen",
+      "brewery_type": "Micro Brewery",
+      "country_name": "Germany"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5daf3e51b0c0bc907a",
+    "bid": 40139,
+    "__v": 0,
+    "beer_abv": 6.3,
+    "beer_description": "The Munich Beer Festival, or Oktoberfest, is an event of superlatives - it’s the largest popular festival in the world, staging in the beer metropolis of Munich. Millions of visitors from all over the world flock along every year to enjoy its very special atmosphere. For this occasion, Hofbräu brews a rich, full-bodied beer which goes down ideally with traditional Bavarian cuisine. With its deliciously bitter taste and alcoholic content of 6.3% volume, Hofbräu Oktoberfestbier is as special as the Beer Festival itself.",
+    "beer_ibu": 26,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-3374055_e924c_sm.jpeg",
+    "beer_name": "Hofbräu Oktoberfestbier",
+    "beer_slug": "staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier",
+    "beer_style": "Festbier",
+    "brewery": {
+      "contact": {
+        "twitter": "HofbraeuhausMUC",
+        "facebook": "http://www.facebook.com/pages/Hofbräu-München/111046612332891",
+        "instagram": "",
+        "url": "http://www.hofbraeu-muenchen.de"
+      },
+      "location": {
+        "brewery_city": "Munich",
+        "brewery_state": "Bayern",
+        "lat": 48.144,
+        "lng": 11.6975
+      },
+      "_id": "5fb8db5daf3e51b0c0bc906f",
+      "brewery_id": 5566,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-StaatlichesHofbrauhausMunchen_5566.jpeg",
+      "brewery_name": "Staatliches Hofbräuhaus München",
+      "brewery_page_url": "/w/staatliches-hofbra-uhaus-ma-1-4-nchen/5566",
+      "brewery_slug": "staatliches-hofbra-uhaus-ma-1-4-nchen",
+      "brewery_type": "Micro Brewery",
+      "country_name": "Germany"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5daf3e51b0c0bc9093",
+    "bid": 2127800,
+    "__v": 0,
+    "beer_abv": 8,
+    "beer_description": "Hops are the name of the game with a Double IPA, but we knew we had to take it one step further. With Hop Bullet, we’re using a new technique, hitting the beer with a double-barreled blast of Magnum hops and lupulin dust—pure, concentrated hop flavor—directly into the tank to emphasize the intense pine and citrus flavors of classic West Coast hops.",
+    "beer_ibu": 60,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-2127800_2db04_sm.jpeg",
+    "beer_name": "Hop Bullet Double IPA",
+    "beer_slug": "sierra-nevada-brewing-co-hop-bullet-double-ipa",
+    "beer_style": "IPA - Imperial / Double",
+    "brewery": {
+      "contact": {
+        "twitter": "SierraNevada",
+        "facebook": "http://www.facebook.com/sierranevadabeer",
+        "instagram": "sierranevada",
+        "url": "http://www.sierranevada.com/"
+      },
+      "location": {
+        "brewery_city": "Chico",
+        "brewery_state": "CA",
+        "lat": 39.7242,
+        "lng": -121.815
+      },
+      "_id": "5fb8db5daf3e51b0c0bc908b",
+      "brewery_id": 1142,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+      "brewery_name": "Sierra Nevada Brewing Co.",
+      "brewery_page_url": "/SierraNevada",
+      "brewery_slug": "sierra-nevada-brewing-co",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db60af3e51b0c0bc932d",
+    "bid": 11921,
+    "__v": 0,
+    "beer_abv": 7,
+    "beer_description": "If you’re looking for hops,  we’ve got your tail. Hop Gun IPA delivers a payload of good ol’ American hops straight to your palate, bursting forth with the flavors of grapefruit and pineapple. A careful dose of smooth caramel malts swoop in to balance out the finish — just like any good wingman should.",
+    "beer_ibu": 50,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-11921_fee17_sm.jpeg",
+    "beer_name": "Hop Gun IPA",
+    "beer_slug": "funky-buddha-brewery-hop-gun-ipa",
+    "beer_style": "IPA - American",
+    "brewery": {
+      "contact": {
+        "twitter": "FunkyBuddhaBrew",
+        "facebook": "http://www.facebook.com/funkybuddhabrewery",
+        "instagram": "FunkyBuddhaBrew",
+        "url": "http://www.funkybuddhabrewery.com/"
+      },
+      "location": {
+        "brewery_city": "Oakland Park",
+        "brewery_state": "FL",
+        "lat": 26.1743,
+        "lng": -80.1307
+      },
+      "_id": "5fb8db60af3e51b0c0bc9317",
+      "brewery_id": 3741,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-3741_5da85.jpeg",
+      "brewery_name": "Funky Buddha Brewery",
+      "brewery_page_url": "/FunkyBuddhaMgmt",
+      "brewery_slug": "funky-buddha-brewery",
+      "brewery_type": "Macro Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5eaf3e51b0c0bc91c0",
+    "bid": 989661,
+    "__v": 0,
+    "beer_abv": 4.1,
+    "beer_description": "This is the 4.1% version of this beer.\n\nHop House 13 is a distinctive golden lager that is brewed with Guinness yeast, Irish barley and the best of hops from both Australia and USA – Galaxy, Topaz, (AUS) and Mosaic (USA). It has a sweet fruity aroma, with hints of Apricot and Peach, and subtle malt notes breaking through.  On taste, Hop House 13 is full flavored while still being crisp and hoppy (but not bitter) with a refreshing clean finish.",
+    "beer_ibu": 0,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-989661_5680d_sm.jpeg",
+    "beer_name": "Hop House 13 Lager (4.1%)",
+    "beer_slug": "guinness-hop-house-13-lager-41",
+    "beer_style": "Lager - Pale",
+    "brewery": {
+      "contact": {
+        "twitter": "GuinnessIreland",
+        "facebook": "https://www.facebook.com/guinness",
+        "instagram": "guinness",
+        "url": "http://www.guinness.com"
+      },
+      "location": {
+        "brewery_city": "Saint James' Gate",
+        "brewery_state": "Leinster",
+        "lat": 53.3443,
+        "lng": -6.28538
+      },
+      "_id": "5fb800fcaf3e51b0c086e779",
+      "brewery_id": 49,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-49_49cf6.jpeg",
+      "brewery_name": "Guinness",
+      "brewery_page_url": "/Guinness",
+      "brewery_slug": "guinness",
+      "brewery_type": "Macro Brewery",
+      "country_name": "Ireland"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db60af3e51b0c0bc92d8",
+    "bid": 44823,
+    "__v": 0,
+    "beer_abv": 9,
+    "beer_description": "A supernatural beer with a powerhouse of hops creating aromas and ﬂavors of citrus, pine and tropical fruit with a juicy resiny hop finish. Special thanks to our loyal fans for the cult-like following.",
+    "beer_ibu": 100,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-44823_b1985_sm.jpeg",
+    "beer_name": "Hop JuJu",
+    "beer_slug": "fat-heads-brewery-hop-juju",
+    "beer_style": "IPA - Imperial / Double",
+    "brewery": {
+      "contact": {
+        "twitter": "FatHeadsBeer",
+        "facebook": "https://www.facebook.com/FatHeadsBeer/",
+        "instagram": "fatheadsbeer",
+        "url": "http://fatheads.com/"
+      },
+      "location": {
+        "brewery_city": "North Olmsted",
+        "brewery_state": "OH",
+        "lat": 41.4264,
+        "lng": -81.8942
+      },
+      "_id": "5fb81107af3e51b0c08bc3cf",
+      "brewery_id": 2192,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-FatHeadsBrewery_2192.jpeg",
+      "brewery_name": "Fat Head's Brewery",
+      "brewery_page_url": "/fatheadsbrewery",
+      "brewery_slug": "fat-head-s-brewery",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5faf3e51b0c0bc926b",
+    "bid": 551620,
+    "__v": 0,
+    "beer_abv": 6.2,
+    "beer_description": "Hop Knife Harvest Ale recognizes the time-honored tradition of hand-harvesting at the peak of maturity. At the end of fermentation, the beer flows through our HopCyclone releasing a bounty of preserved citrus rind, crushed jungle and tropical aromas. ",
+    "beer_ibu": 87,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-551620_97486_sm.jpeg",
+    "beer_name": "Hop Knife Harvest",
+    "beer_slug": "troegs-independent-brewing-hop-knife-harvest",
+    "beer_style": "IPA - American",
+    "brewery": {
+      "contact": {
+        "twitter": "TroegsBeer",
+        "facebook": "https://www.facebook.com/troegsbeer/",
+        "instagram": "troegsbeer",
+        "url": "http://www.troegs.com/"
+      },
+      "location": {
+        "brewery_city": "Hershey",
+        "brewery_state": "PA",
+        "lat": 40.2933,
+        "lng": -76.6576
+      },
+      "_id": "5fb8db5eaf3e51b0c0bc914a",
+      "brewery_id": 2583,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-2583_46be7.jpeg",
+      "brewery_name": "Tröegs Independent Brewing",
+      "brewery_page_url": "/troegsbrewingcompany",
+      "brewery_slug": "troegs-independent-brewing",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5faf3e51b0c0bc923c",
+    "bid": 4482,
+    "__v": 0,
+    "beer_abv": 7,
+    "beer_description": "Brilliant copper color with a lingering, lacy white head. The nose sings of grapefruit, pine needles, citron, roses and bergamot. The flavor is rich in the citrusy, resiny flavors from Columbus and Cascade hops packed into this beer balanced artfully with a solid malt character and crisp bitterness leading to a beautifully dry, light herbal finish.",
+    "beer_ibu": 80,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-4482_39027_sm.jpeg",
+    "beer_name": "Hop Ottin' IPA",
+    "beer_slug": "anderson-valley-brewing-company-hop-ottin-ipa",
+    "beer_style": "IPA - American",
+    "brewery": {
+      "contact": {
+        "twitter": "avbc",
+        "facebook": "http://www.facebook.com/AndersonValleyBrewingCompany",
+        "instagram": "andersonvalleybrewing",
+        "url": "http://www.avbc.com"
+      },
+      "location": {
+        "brewery_city": "Boonville",
+        "brewery_state": "CA",
+        "lat": 39.0005,
+        "lng": -123.356
+      },
+      "_id": "5fb8d5bfaf3e51b0c0bb1b40",
+      "brewery_id": 3880,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-3880_4fbab.jpeg",
+      "brewery_name": "Anderson Valley Brewing Company",
+      "brewery_page_url": "/andersonvalley",
+      "brewery_slug": "anderson-valley-brewing-company",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5eaf3e51b0c0bc9183",
+    "bid": 45665,
+    "__v": 0,
+    "beer_abv": 7.2,
+    "beer_description": "For us this is where it all started! The rich golden color comes from a blend of English and American base malts accented with substantial amounts of Victory and Wheat malt. The American citrus hops take center stage with emphasis on late boil additions of Citra and Amarillo. This signature ale is hopped before, during, and after the boil!\r\n",
+    "beer_ibu": 80,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-45665_a1a05_sm.jpeg",
+    "beer_name": "Hop, Drop ‘n Roll",
+    "beer_slug": "noda-brewing-company-hop-drop-n-roll",
+    "beer_style": "IPA - American",
+    "brewery": {
+      "contact": {
+        "twitter": "nodabrewing",
+        "facebook": "http://www.facebook.com/pages/NoDa-Brewing-Company/185972434767424",
+        "instagram": "nodabrewing",
+        "url": "http://www.nodabrewing.com/"
+      },
+      "location": {
+        "brewery_city": "Charlotte",
+        "brewery_state": "NC",
+        "lat": 35.2403,
+        "lng": -80.8148
+      },
+      "_id": "5fb8db5eaf3e51b0c0bc917a",
+      "brewery_id": 10822,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-10822_826bf.jpeg",
+      "brewery_name": "NoDa Brewing Company",
+      "brewery_page_url": "/nodabrewing",
+      "brewery_slug": "noda-brewing-company",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5faf3e51b0c0bc928a",
+    "bid": 9350,
+    "__v": 0,
+    "beer_abv": 6,
+    "beer_description": "Standing 12 ft. tall at the center of the brew deck is our HopBack vessel; here, whole flower hops swirl in hot wort coaxing hop oil into aromas of grapefruit pith and pinesap. This bright hop nose is counterbalanced with malt tones of toffee and caramel. ",
+    "beer_ibu": 55,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-9350_5b308_sm.jpeg",
+    "beer_name": "HopBack Amber Ale",
+    "beer_slug": "troegs-independent-brewing-hopback-amber-ale",
+    "beer_style": "Red Ale - American Amber / Red",
+    "brewery": {
+      "contact": {
+        "twitter": "TroegsBeer",
+        "facebook": "https://www.facebook.com/troegsbeer/",
+        "instagram": "troegsbeer",
+        "url": "http://www.troegs.com/"
+      },
+      "location": {
+        "brewery_city": "Hershey",
+        "brewery_state": "PA",
+        "lat": 40.2933,
+        "lng": -76.6576
+      },
+      "_id": "5fb8db5eaf3e51b0c0bc914a",
+      "brewery_id": 2583,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-2583_46be7.jpeg",
+      "brewery_name": "Tröegs Independent Brewing",
+      "brewery_page_url": "/troegsbrewingcompany",
+      "brewery_slug": "troegs-independent-brewing",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5daf3e51b0c0bc90d0",
+    "bid": 73130,
+    "__v": 0,
+    "beer_abv": 6.6,
+    "beer_description": "He lurks in the shadows, waiting in bold anticipation.  He's surprisingly bitter.  Bitter about something.  Legend has it that he feasts on those with fresh hops coursing through their veins.  This dry-hopped, Texas IPA has a flavor as defiant as the Hopadillo himself.  It's packed with the bracing bitterness of hops from around the world that this creature craves.  He's comin' to get ya.  You've been warned...\r\n",
+    "beer_ibu": 65,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-73130_ce55c_sm.jpeg",
+    "beer_name": "Hopadillo IPA",
+    "beer_slug": "karbach-brewing-co-hopadillo-ipa",
+    "beer_style": "IPA - American",
+    "brewery": {
+      "contact": {
+        "twitter": "karbachbrewing",
+        "facebook": "http://www.facebook.com/karbachbrewing",
+        "instagram": "karbachbrewing",
+        "url": "http://www.karbachbrewing.com"
+      },
+      "location": {
+        "brewery_city": "Houston",
+        "brewery_state": "TX",
+        "lat": 29.8059,
+        "lng": -95.461
+      },
+      "_id": "5fb8db5daf3e51b0c0bc90c7",
+      "brewery_id": 14665,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-14665_393c6.jpeg",
+      "brewery_name": "Karbach Brewing Co",
+      "brewery_page_url": "/karbachbrewing",
+      "brewery_slug": "karbach-brewing-co",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8013daf3e51b0c086f660",
+    "bid": 13967,
+    "__v": 0,
+    "beer_abv": 5.4,
+    "beer_description": "Obnoxious breeds of the most pungent hops are corralled by a strong malt backbone to make Hopdinger dangerously drinkable. Hop lovers unite! This pale ale is generously hopped yet balanced through the use of Munich and Crystal malts. Hops added after fermentation gives this American classic an intense aromatic bouquet. Enjoy! \r\n\r\nCheck out Hopdinger at https://www.osobrewing.com/hop-dinger",
+    "beer_ibu": 49,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-13967_ee33c_sm.jpeg",
+    "beer_name": "Hopdinger",
+    "beer_slug": "oso-brewing-company-hopdinger",
+    "beer_style": "Pale Ale - American",
+    "brewery": {
+      "contact": {
+        "twitter": "osobrewing",
+        "facebook": "https://www.facebook.com/OsoBrewingCompany",
+        "instagram": "oso_brewing",
+        "url": "http://www.osobrewing.com"
+      },
+      "location": {
+        "brewery_city": "Plover",
+        "brewery_state": "WI",
+        "lat": 44.453,
+        "lng": -89.5235
+      },
+      "_id": "5fb8013caf3e51b0c086f5b6",
+      "brewery_id": 2029,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-2029_24d44.jpeg",
+      "brewery_name": "O'so Brewing Company",
+      "brewery_page_url": "/OsoBrewingCompany",
+      "brewery_slug": "o-so-brewing-company",
+      "brewery_type": "Micro Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8d56baf3e51b0c0bb0cff",
+    "bid": 69959,
+    "__v": 0,
+    "beer_abv": 6.5,
+    "beer_description": "Cut through the haze with Hoponius Union, a crisp and clear India Pale Lager hopped with Citra and Centennial. Our flagship hoppy lager is like a traditional IPA but with a twist – it’s fermented cold and aged for extended periods. A blend of harmonious American hops creates a huge tropical fruit and citrusy hop aroma. A dry finish accentuates the pleasant bitterness and hop profile.",
+    "beer_ibu": 65,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-69959_14d36_sm.jpeg",
+    "beer_name": "Hoponius Union",
+    "beer_slug": "jacks-abby-craft-lagers-hoponius-union",
+    "beer_style": "Lager - IPL (India Pale Lager)",
+    "brewery": {
+      "contact": {
+        "twitter": "jacksabby",
+        "facebook": "https://www.facebook.com/jacksabbycraftlagers",
+        "instagram": "jacksabbycraftlagers",
+        "url": "https://jacksabby.com/"
+      },
+      "location": {
+        "brewery_city": "Framingham",
+        "brewery_state": "MA",
+        "lat": 42.2803,
+        "lng": -71.4108
+      },
+      "_id": "5fb8d56baf3e51b0c0bb0cf6",
+      "brewery_id": 14088,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-14088_cf45e.jpeg",
+      "brewery_name": "Jack's Abby Craft Lagers",
+      "brewery_page_url": "/JacksAbbyBrewing",
+      "brewery_slug": "jack-s-abby-craft-lagers",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5daf3e51b0c0bc90ad",
+    "bid": 11563,
+    "__v": 0,
+    "beer_abv": 6.25,
+    "beer_description": "The recipe is simple. Take some hoppy. Add some yum. Nutty malts lend a surprisingly sweet base to copious additions of tangerine-y Simcoe™ hops. Great aroma, superior taste, clean dry finish. One sip will show you why this is our most popular beer . . . followed closely by a strong desire to take another sip.",
+    "beer_ibu": 78,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-11563_c38ca_sm.jpeg",
+    "beer_name": "Hoppyum IPA",
+    "beer_slug": "foothills-brewing-hoppyum-ipa",
+    "beer_style": "IPA - American",
+    "brewery": {
+      "contact": {
+        "twitter": "FoothillsBeer",
+        "facebook": "http://www.facebook.com/foothills.brewing",
+        "instagram": "FoothillsBrewing",
+        "url": "http://www.foothillsbrewing.com/"
+      },
+      "location": {
+        "brewery_city": "Winston-Salem",
+        "brewery_state": "NC",
+        "lat": 36.0973,
+        "lng": -80.2509
+      },
+      "_id": "5fb8db5daf3e51b0c0bc90a5",
+      "brewery_id": 543,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-543_f35d3.jpeg",
+      "brewery_name": "Foothills Brewing",
+      "brewery_page_url": "/FoothillsBrewing",
+      "brewery_slug": "foothills-brewing",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5eaf3e51b0c0bc9142",
+    "bid": 4947,
+    "__v": 0,
+    "beer_abv": 7,
+    "beer_description": "Plenty of hops are added to this brew in 5 different ways, which allows the “Essence of the Hop” to burst through and give that signature resiny, citrus-filled flavor for which Hoptical Illusion is known. This award-winning IPA is truly a hop lover’s dream.",
+    "beer_ibu": 70,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-4947_ac2dd_sm.jpeg",
+    "beer_name": "Hoptical Illusion",
+    "beer_slug": "blue-point-brewing-company-hoptical-illusion",
+    "beer_style": "IPA - American",
+    "brewery": {
+      "contact": {
+        "twitter": "BluePointBrewer",
+        "facebook": "https://www.facebook.com/BluePointBrewing/",
+        "instagram": "bluepointbrewing",
+        "url": "http://www.bluepointbrewing.com/"
+      },
+      "location": {
+        "brewery_city": "Patchogue",
+        "brewery_state": "NY",
+        "lat": 40.7591,
+        "lng": -73.0215
+      },
+      "_id": "5fb8db5eaf3e51b0c0bc913a",
+      "brewery_id": 144,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-144_61002.jpeg",
+      "brewery_name": "Blue Point Brewing Company",
+      "brewery_page_url": "/BluePointBrewing",
+      "brewery_slug": "blue-point-brewing-company",
+      "brewery_type": "Macro Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8013daf3e51b0c086f673",
+    "bid": 1767092,
+    "__v": 0,
+    "beer_abv": 7.2,
+    "beer_description": "An odd couple can make for some of the most incredibly unique tastiness. Take Hotbox Coffee IPA (7.2% ABV, 70 IBUs) for example - a piney, citrus, mango, Simcoe-hopped IPA and an infusion of cold brew extract made with Hotbox Roasters' Ethiopian beans poppin' with creamy blueberry and cacao notes.",
+    "beer_ibu": 70,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1767092_5806e_sm.jpeg",
+    "beer_name": "Hotbox Coffee IPA",
+    "beer_slug": "oskar-blues-brewery-hotbox-coffee-ipa",
+    "beer_style": "IPA - American",
+    "brewery": {
+      "contact": {
+        "twitter": "oskarblues",
+        "facebook": "https://www.facebook.com/OskarBluesCANS/",
+        "instagram": "oskarblues",
+        "url": "http://www.oskarblues.com/"
+      },
+      "location": {
+        "brewery_city": "Longmont",
+        "brewery_state": "CO",
+        "lat": 40.1391,
+        "lng": -105.122
+      },
+      "_id": "5fb7ff73af3e51b0c0866b37",
+      "brewery_id": 956,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-956_9066d.jpeg",
+      "brewery_name": "Oskar Blues Brewery",
+      "brewery_page_url": "/oskarblues",
+      "brewery_slug": "oskar-blues-brewery",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8013baf3e51b0c086f525",
+    "bid": 1254136,
+    "__v": 0,
+    "beer_abv": 6.5,
+    "beer_description": "Hotbox Coffee Porter features cold-extracted coffee from Burundian and Ethiopian beans, to give the base porter flavors and aromas of dark plums, chocolate and hints of blueberry.",
+    "beer_ibu": 30,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1254136_c9365_sm.jpeg",
+    "beer_name": "Hotbox Coffee Porter",
+    "beer_slug": "oskar-blues-brewery-hotbox-coffee-porter",
+    "beer_style": "Porter - Coffee",
+    "brewery": {
+      "contact": {
+        "twitter": "oskarblues",
+        "facebook": "https://www.facebook.com/OskarBluesCANS/",
+        "instagram": "oskarblues",
+        "url": "http://www.oskarblues.com/"
+      },
+      "location": {
+        "brewery_city": "Longmont",
+        "brewery_state": "CO",
+        "lat": 40.1391,
+        "lng": -105.122
+      },
+      "_id": "5fb7ff73af3e51b0c0866b37",
+      "brewery_id": 956,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-956_9066d.jpeg",
+      "brewery_name": "Oskar Blues Brewery",
+      "brewery_page_url": "/oskarblues",
+      "brewery_slug": "oskar-blues-brewery",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8d597af3e51b0c0bb13c6",
+    "bid": 230,
+    "__v": 0,
+    "beer_abv": 9,
+    "beer_description": "The gnomes of Fairyland may be little, but they have big, very big, personalities.  HOUBLON CHOUFFE matches their impish spirits.  All gnomes, with their innate good taste, are in full agreement about HOUBLON CHOUFFE, which is flavoured by three different types of hops.  This India Pale Ale is appreciated for its pronounced bitterness combined with the fruity tones of traditional Achouffe beers: it softens the strongest of characters.",
+    "beer_ibu": 47,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-230_d0796_sm.jpeg",
+    "beer_name": "Houblon Chouffe",
+    "beer_slug": "brasserie-dachouffe-houblon-chouffe",
+    "beer_style": "IPA - Belgian",
+    "brewery": {
+      "contact": {
+        "twitter": "LaChouffeGnome",
+        "facebook": "http://www.facebook.com/LaChouffe.beer",
+        "instagram": "chouffeusa",
+        "url": "http://www.achouffe.be"
+      },
+      "location": {
+        "brewery_city": "Achouffe",
+        "brewery_state": "Wallonie",
+        "lat": 50.151,
+        "lng": 5.74581
+      },
+      "_id": "5fb8d596af3e51b0c0bb1383",
+      "brewery_id": 11866,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-11866_217c7.jpeg",
+      "brewery_name": "Brasserie d'Achouffe",
+      "brewery_page_url": "/brasseriedachouffe",
+      "brewery_slug": "brasserie-d-achouffe",
+      "brewery_type": "Regional Brewery",
+      "country_name": "Belgium"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8d596af3e51b0c0bb138c",
+    "bid": 52593,
+    "__v": 0,
+    "beer_abv": 8,
+    "beer_description": "The gnomes of Fairyland are particularly fond of this golden beer.  LA CHOUFFE, with its slight hoppy taste, combining notes of fresh coriander and fruity tones, is the drink which gives them their zest for life.  At least, that's what these imps say when they are thirsty.   Their secret used to be jealously guarded from one generation to the next until the day they shared the recipe with humans to seal their friendship.  Of all the legends from the wonderful region of the Belgian Ardennes, the tale of LA CHOUFFE is the one which most merits re-telling.",
+    "beer_ibu": 20,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-52593_1ca84_sm.jpeg",
+    "beer_name": "La Chouffe Blond",
+    "beer_slug": "brasserie-dachouffe-la-chouffe-blond",
+    "beer_style": "Belgian Strong Golden Ale",
+    "brewery": {
+      "contact": {
+        "twitter": "LaChouffeGnome",
+        "facebook": "http://www.facebook.com/LaChouffe.beer",
+        "instagram": "chouffeusa",
+        "url": "http://www.achouffe.be"
+      },
+      "location": {
+        "brewery_city": "Achouffe",
+        "brewery_state": "Wallonie",
+        "lat": 50.151,
+        "lng": 5.74581
+      },
+      "_id": "5fb8d596af3e51b0c0bb1383",
+      "brewery_id": 11866,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-11866_217c7.jpeg",
+      "brewery_name": "Brasserie d'Achouffe",
+      "brewery_page_url": "/brasseriedachouffe",
+      "brewery_slug": "brasserie-d-achouffe",
+      "brewery_type": "Regional Brewery",
+      "country_name": "Belgium"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8da7daf3e51b0c0bc6b09",
+    "bid": 471463,
+    "__v": 0,
+    "beer_abv": 5,
+    "beer_description": "Longhorn IPA as in expertly brewed craft ale named after the herd of Longhorn Cattle that feed of Purity’s spent grains\r\n",
+    "beer_ibu": 55,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-471463_2ee0a_sm.jpeg",
+    "beer_name": "Longhorn IPA",
+    "beer_slug": "purity-brewing-co-england-longhorn-ipa",
+    "beer_style": "IPA - Rye",
+    "brewery": {
+      "contact": {
+        "twitter": "PurityAle",
+        "facebook": "http://www.facebook.com/puritybrewingco",
+        "instagram": "purityale",
+        "url": "http://www.puritybrewing.com"
+      },
+      "location": {
+        "brewery_city": "Alcester",
+        "brewery_state": "Warwickshire",
+        "lat": 52.256,
+        "lng": -1.85035
+      },
+      "_id": "5fb8da7daf3e51b0c0bc6b01",
+      "brewery_id": 1536,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-1536_1e439.jpeg",
+      "brewery_name": "Purity Brewing Co. (England)",
+      "brewery_page_url": "/puritybrewingco",
+      "brewery_slug": "purity-brewing-co-england",
+      "brewery_type": "Regional Brewery",
+      "country_name": "England"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8d597af3e51b0c0bb1416",
+    "bid": 52336,
+    "__v": 0,
+    "beer_abv": 8,
+    "beer_description": "Among the mythical characters living in Fairyland, some are more unusual than others.  Malcolm, for example, is different because of his accent and his kilt: when it comes to beer, his favourite is Mc CHOUFFE.  The delicious flavours of aniseed, liquorice and toffee tickle his taste buds.  If you listen to him, he will boast of its ruby sparkle, its smooth bitterness and its strong character, worthy of his native Scotland.  Although robust, Mc CHOUFFE goes down as easily as LA CHOUFFE.",
+    "beer_ibu": 20,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-52336_f6639_sm.jpeg",
+    "beer_name": "Mc Chouffe",
+    "beer_slug": "brasserie-dachouffe-mc-chouffe",
+    "beer_style": "Belgian Strong Dark Ale",
+    "brewery": {
+      "contact": {
+        "twitter": "LaChouffeGnome",
+        "facebook": "http://www.facebook.com/LaChouffe.beer",
+        "instagram": "chouffeusa",
+        "url": "http://www.achouffe.be"
+      },
+      "location": {
+        "brewery_city": "Achouffe",
+        "brewery_state": "Wallonie",
+        "lat": 50.151,
+        "lng": 5.74581
+      },
+      "_id": "5fb8d596af3e51b0c0bb1383",
+      "brewery_id": 11866,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-11866_217c7.jpeg",
+      "brewery_name": "Brasserie d'Achouffe",
+      "brewery_page_url": "/brasseriedachouffe",
+      "brewery_slug": "brasserie-d-achouffe",
+      "brewery_type": "Regional Brewery",
+      "country_name": "Belgium"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5faf3e51b0c0bc9281",
+    "bid": 7231,
+    "__v": 0,
+    "beer_abv": 6,
+    "beer_description": "The Terrapin “Moo-Hoo” Chocolate Milk Stout proudly uses cocoa nibs and shells from Olive and Sinclair Chocolate Company to give this beer its great taste!",
+    "beer_ibu": 30,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-7231_92cde_sm.jpeg",
+    "beer_name": "Moo-Hoo Chocolate Milk Stout",
+    "beer_slug": "terrapin-beer-co-moohoo-chocolate-milk-stout",
+    "beer_style": "Stout - Milk / Sweet",
+    "brewery": {
+      "contact": {
+        "twitter": "TerrapinBeerCo",
+        "facebook": "http://www.facebook.com/terrapinbeerco",
+        "instagram": "terrapinbeerco",
+        "url": "http://terrapinbeer.com/"
+      },
+      "location": {
+        "brewery_city": "Athens",
+        "brewery_state": "GA",
+        "lat": 33.9804,
+        "lng": -83.3957
+      },
+      "_id": "5fb8db5faf3e51b0c0bc9279",
+      "brewery_id": 1243,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-1243_f9dda.jpeg",
+      "brewery_name": "Terrapin Beer Co. ",
+      "brewery_page_url": "/terrapinbeerco",
+      "brewery_slug": "terrapin-beer-co",
+      "brewery_type": "Micro Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8da7baf3e51b0c0bc69ce",
+    "bid": 11852,
+    "__v": 0,
+    "beer_abv": 5.4,
+    "beer_description": "Mönchshof's centuries of brewing tradition and the love of the original brewing art is to thank for the naturally cloudy Mönchshof Kellerbier.\r\n\r\nIts amber-like colour and the balanced mild taste mean that it appeals especially to fans of unfiltered Zwickel beers. A special traditional Mönchshof speciality beer!\r\n\r\n12.4 °P original wort\r\n5.4 % alcohol",
+    "beer_ibu": 19,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-11852_24c0c_sm.jpeg",
+    "beer_name": "Mönchshof Kellerbier",
+    "beer_slug": "kulmbacher-brauerei-monchshof-kellerbier",
+    "beer_style": "Kellerbier / Zwickelbier",
+    "brewery": {
+      "contact": {
+        "twitter": "",
+        "facebook": "https://www.facebook.com/KulmbacherAusbildung",
+        "instagram": "",
+        "url": "http://www.kulmbacher.de"
+      },
+      "location": {
+        "brewery_city": "Kulmbach",
+        "brewery_state": "Bayern",
+        "lat": 50.106,
+        "lng": 11.4442
+      },
+      "_id": "5fb8da7baf3e51b0c0bc69c6",
+      "brewery_id": 757,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-KulmbacherBrauereiAG_757.jpeg",
+      "brewery_name": "Kulmbacher Brauerei",
+      "brewery_page_url": "/w/kulmbacher-brauerei/757",
+      "brewery_slug": "kulmbacher-brauerei",
+      "brewery_type": "Macro Brewery",
+      "country_name": "Germany"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8d597af3e51b0c0bb13e4",
+    "bid": 7539,
+    "__v": 0,
+    "beer_abv": 10,
+    "beer_description": "When the little animals in Fairyland hibernate, the Achouffe gnomes love to gather in their cottage.  By the gentle firelight, they spend long evenings telling the best Ardennes stories while enjoying a delicious N’Ice CHOUFFE. Smooth and strong, with spicy notes of thyme and Curacao, this dark beer warms both hearts and atmospheres, making even the coldest winters joyful.",
+    "beer_ibu": 25,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-7539_cd6d7_sm.jpeg",
+    "beer_name": "N'Ice Chouffe",
+    "beer_slug": "brasserie-dachouffe-nice-chouffe",
+    "beer_style": "Winter Ale",
+    "brewery": {
+      "contact": {
+        "twitter": "LaChouffeGnome",
+        "facebook": "http://www.facebook.com/LaChouffe.beer",
+        "instagram": "chouffeusa",
+        "url": "http://www.achouffe.be"
+      },
+      "location": {
+        "brewery_city": "Achouffe",
+        "brewery_state": "Wallonie",
+        "lat": 50.151,
+        "lng": 5.74581
+      },
+      "_id": "5fb8d596af3e51b0c0bb1383",
+      "brewery_id": 11866,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-11866_217c7.jpeg",
+      "brewery_name": "Brasserie d'Achouffe",
+      "brewery_page_url": "/brasseriedachouffe",
+      "brewery_slug": "brasserie-d-achouffe",
+      "brewery_type": "Regional Brewery",
+      "country_name": "Belgium"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8013eaf3e51b0c086f6e7",
+    "bid": 25996,
+    "__v": 0,
+    "beer_abv": 4.5,
+    "beer_description": "Full-bodied and smooth-drinking stout with flavors of dark chocolate and roasted coffee. ",
+    "beer_ibu": 30,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-25996_028ca_sm.jpeg",
+    "beer_name": "Oscar's Chocolate Oatmeal Stout",
+    "beer_slug": "sand-creek-brewing-company-oscars-chocolate-oatmeal-stout",
+    "beer_style": "Stout - Oatmeal",
+    "brewery": {
+      "contact": {
+        "twitter": "sandcreekbrew",
+        "facebook": "http://www.facebook.com/sandcreekbrewery",
+        "instagram": "sandcreekbrewery",
+        "url": "http://www.sandcreekbrewing.com"
+      },
+      "location": {
+        "brewery_city": "Black River Falls",
+        "brewery_state": "WI",
+        "lat": 44.2927,
+        "lng": -90.8518
+      },
+      "_id": "5fb8013eaf3e51b0c086f6df",
+      "brewery_id": 1103,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-1103_543ec.jpeg",
+      "brewery_name": "Sand Creek Brewing Company",
+      "brewery_page_url": "/SandCreekBrewingCo",
+      "brewery_slug": "sand-creek-brewing-company",
+      "brewery_type": "Micro Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8013daf3e51b0c086f685",
+    "bid": 1396960,
+    "__v": 0,
+    "beer_abv": 7,
+    "beer_description": "An unfiltered, divine farmhouse ale brewed with local barley, spelt and oats. Lavishly hopped with Cascade hop to give you aromas of lime and apricot.",
+    "beer_ibu": 38,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1396960_7a5b4_sm.jpeg",
+    "beer_name": "Osiris Farmhouse Ale",
+    "beer_slug": "walhalla-brouwerij-and-proeflokaal-osiris-farmhouse-ale",
+    "beer_style": "Farmhouse Ale - Saison",
+    "brewery": {
+      "contact": {
+        "twitter": "walhallabrewing",
+        "facebook": "https://www.facebook.com/walhallacraftbeer",
+        "instagram": "walhallabrewing",
+        "url": "http://walhallacraftbeer.nl/"
+      },
+      "location": {
+        "brewery_city": "Amsterdam",
+        "brewery_state": "Noord-Holland",
+        "lat": 52.3854,
+        "lng": 4.92071
+      },
+      "_id": "5fb8013daf3e51b0c086f67d",
+      "brewery_id": 248337,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-248337_bb91a.jpeg",
+      "brewery_name": "Walhalla Brouwerij & Proeflokaal",
+      "brewery_page_url": "/WalhallaCraftBeer",
+      "brewery_slug": "walhalla-brouwerij-proeflokaal",
+      "brewery_type": "Micro Brewery",
+      "country_name": "Netherlands"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8da7daf3e51b0c0bc6ac2",
+    "bid": 274963,
+    "__v": 0,
+    "beer_abv": 6.8,
+    "beer_description": "Pocahoptas is a hop forward India Pale Ale that features four different hops from the Pacific Northwest combined with a base of imported English 2-row barley and Crystal malts. It is dry-hopped for additional hop flavor and aroma.",
+    "beer_ibu": 72,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-274963_fbaa9_sm.jpeg",
+    "beer_name": "Pocahoptas",
+    "beer_slug": "center-of-the-universe-brewing-company-pocahoptas",
+    "beer_style": "IPA - American",
+    "brewery": {
+      "contact": {
+        "twitter": "COTUBrew",
+        "facebook": "http://www.facebook.com/COTUBrew",
+        "instagram": "COTUbrew",
+        "url": "http://www.cotubrewing.com"
+      },
+      "location": {
+        "brewery_city": "Ashland",
+        "brewery_state": "VA",
+        "lat": 37.7228,
+        "lng": -77.4467
+      },
+      "_id": "5fb8da7daf3e51b0c0bc6aba",
+      "brewery_id": 44719,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-44719_aa7d2.jpeg",
+      "brewery_name": "Center Of The Universe Brewing Company",
+      "brewery_page_url": "/COTUBrew",
+      "brewery_slug": "center-of-the-universe-brewing-company",
+      "brewery_type": "Micro Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db60af3e51b0c0bc9398",
+    "bid": 1256,
+    "__v": 0,
+    "beer_abv": 8,
+    "beer_description": "A West Coast Double IPA so mega-hopped it will take you to hop heaven. We've used hops in the boil, more hops in the giant hopback, and added to that, an incredible amount of dry-hopping for that cutting-edge hop bite. Once you've tasted this unique beer, all others pale in comparison.",
+    "beer_ibu": 61,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1256_109d6_sm.jpeg",
+    "beer_name": "Pure Hoppiness",
+    "beer_slug": "alpine-beer-company-pure-hoppiness",
+    "beer_style": "IPA - Imperial / Double",
+    "brewery": {
+      "contact": {
+        "twitter": "alpinebeerco",
+        "facebook": "http://www.facebook.com/alpinebeercompany",
+        "instagram": "alpinebeerco",
+        "url": "http://alpinebeerco.com"
+      },
+      "location": {
+        "brewery_city": "Alpine",
+        "brewery_state": "CA",
+        "lat": 32.8354,
+        "lng": -116.766
+      },
+      "_id": "5fb8db5faf3e51b0c0bc9293",
+      "brewery_id": 29,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-29_19acf.jpeg",
+      "brewery_name": "Alpine Beer Company",
+      "brewery_page_url": "/AlpineBeerCo",
+      "brewery_slug": "alpine-beer-company",
+      "brewery_type": "Micro Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb81109af3e51b0c08bc510",
+    "bid": 21857,
+    "__v": 0,
+    "beer_abv": 2.5,
+    "beer_description": "Now that you’ve discovered the new unique taste of our beer, we salute your ways to keep it fresh. As an original - the first to combine Hefeweizen beer and grapefruit juice, we’d like to introduce you to the “proper” pronunciation of our unusual and challenging name: Chauffeur + ah + (The) Hoff + ah! ",
+    "beer_ibu": 0,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-SchofferhoferGrapefruit_21857.jpeg",
+    "beer_name": "Schöfferhofer Grapefruit",
+    "beer_slug": "radeberger-gruppe-schofferhofer-grapefruit",
+    "beer_style": "Shandy / Radler",
+    "brewery": {
+      "contact": {
+        "twitter": "",
+        "facebook": "",
+        "instagram": "",
+        "url": "http://www.radeberger-gruppe.de"
+      },
+      "location": {
+        "brewery_city": "Frankfurt am Main",
+        "brewery_state": "Hessen",
+        "lat": 50.0958,
+        "lng": 8.69188
+      },
+      "_id": "5fb81109af3e51b0c08bc507",
+      "brewery_id": 4936,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-4936_db567.jpeg",
+      "brewery_name": "Radeberger Gruppe",
+      "brewery_page_url": "/RadebergerGruppe",
+      "brewery_slug": "radeberger-gruppe",
+      "brewery_type": "Macro Brewery",
+      "country_name": "Germany"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db60af3e51b0c0bc92c5",
+    "bid": 39740,
+    "__v": 0,
+    "beer_abv": 5.2,
+    "beer_description": "Wheat ale brewed with orange peel with clover honey added.",
+    "beer_ibu": 15,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-39740_d1a23_sm.jpeg",
+    "beer_name": "Summer Honey Wheat",
+    "beer_slug": "blue-moon-brewing-company-summer-honey-wheat",
+    "beer_style": "Wheat Beer - American Pale Wheat",
+    "brewery": {
+      "contact": {
+        "twitter": "BlueMoonBrewCo",
+        "facebook": "https://www.facebook.com/bluemoon",
+        "instagram": "",
+        "url": "http://www.bluemoonbrewingcompany.com/"
+      },
+      "location": {
+        "brewery_city": "Denver",
+        "brewery_state": "CO",
+        "lat": 39.7736,
+        "lng": -104.977
+      },
+      "_id": "5fb8db60af3e51b0c0bc92bc",
+      "brewery_id": 127804,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-127804_1a670.jpeg",
+      "brewery_name": "Blue Moon Brewing Company",
+      "brewery_page_url": "/BlueMoonBrewingCompany",
+      "brewery_slug": "blue-moon-brewing-company",
+      "brewery_type": "Macro Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db5eaf3e51b0c0bc91ca",
+    "bid": 468518,
+    "__v": 0,
+    "beer_abv": 4.2,
+    "beer_description": "With a bright, golden color and tight, creamy head, the earthy wood undertones in this beer develop into a light mineral aroma with a hint of lemon zest and tropical fruit. An initial refreshing tartness gives way to a subtle fullness, with flavors of guava and peach followed by a slight sea salt dryness and lemon sourness. The finish is dry, effervescent, and lemon tangy, reminiscent of a fresh sea breeze.",
+    "beer_ibu": 12,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-468518_28ffe_sm.jpeg",
+    "beer_name": "The Kimmie, The Yink and The Holy Gose Ale",
+    "beer_slug": "anderson-valley-brewing-company-the-kimmie-the-yink-and-the-holy-gose-ale",
+    "beer_style": "Sour - Gose",
+    "brewery": {
+      "contact": {
+        "twitter": "avbc",
+        "facebook": "http://www.facebook.com/AndersonValleyBrewingCompany",
+        "instagram": "andersonvalleybrewing",
+        "url": "http://www.avbc.com"
+      },
+      "location": {
+        "brewery_city": "Boonville",
+        "brewery_state": "CA",
+        "lat": 39.0005,
+        "lng": -123.356
+      },
+      "_id": "5fb8d5bfaf3e51b0c0bb1b40",
+      "brewery_id": 3880,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-3880_4fbab.jpeg",
+      "brewery_name": "Anderson Valley Brewing Company",
+      "brewery_page_url": "/andersonvalley",
+      "brewery_slug": "anderson-valley-brewing-company",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8db60af3e51b0c0bc9365",
+    "bid": 6412,
+    "__v": 0,
+    "beer_abv": 8,
+    "beer_description": "A few thousand years before we opened Ninkasi,\r\nColumbian mammoths roamed this area by the\r\nthousands. They stood 13 feet high with tusks 16 feet\r\nlong. This is our monument to all the big and beautiful\r\nbeasts that came before us. Tricerahops is an ancient\r\nfield of floral hops with a deep, earthy taste and a\r\nbalanced finish you never want to end.",
+    "beer_ibu": 84,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-6412_2aead_sm.jpeg",
+    "beer_name": "Tricerahops ",
+    "beer_slug": "ninkasi-brewing-company-tricerahops",
+    "beer_style": "IPA - Imperial / Double",
+    "brewery": {
+      "contact": {
+        "twitter": "NinkasiBrewing",
+        "facebook": "https://www.facebook.com/NinkasiBrewing/",
+        "instagram": "NinkasiBrewing",
+        "url": "http://www.ninkasibrewing.com/"
+      },
+      "location": {
+        "brewery_city": "Eugene",
+        "brewery_state": "OR",
+        "lat": 44.0582,
+        "lng": -123.111
+      },
+      "_id": "5fb8db60af3e51b0c0bc9359",
+      "brewery_id": 2840,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-NinkasiBrewingCompany_2840.jpeg",
+      "brewery_name": "Ninkasi Brewing Company",
+      "brewery_page_url": "/NinkasiBrewingCompany",
+      "brewery_slug": "ninkasi-brewing-company",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8da7caf3e51b0c0bc6a58",
+    "bid": 665677,
+    "__v": 0,
+    "beer_abv": 9.2,
+    "beer_description": "Our take on the Trippel style originally brewed by monks in Belgium features fruity / funky notes from the traditional Belgian yeast paired with a sacrilegious American hop character.",
+    "beer_ibu": 0,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-665677_63041_sm.jpeg",
+    "beer_name": "Unholy",
+    "beer_slug": "coppertail-brewing-company-unholy",
+    "beer_style": "Belgian Tripel",
+    "brewery": {
+      "contact": {
+        "twitter": "Coppertail",
+        "facebook": "http://www.facebook.com/Coppertailbrewing",
+        "instagram": "coppertailbrewing",
+        "url": "http://coppertailbrewing.com"
+      },
+      "location": {
+        "brewery_city": "Tampa",
+        "brewery_state": "FL",
+        "lat": 27.9563,
+        "lng": -82.43
+      },
+      "_id": "5fb8da7caf3e51b0c0bc6a4f",
+      "brewery_id": 88856,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-coppertail_88856.jpeg",
+      "brewery_name": "Coppertail Brewing Company",
+      "brewery_page_url": "/CoppertailBrewing",
+      "brewery_slug": "coppertail-brewing-company",
+      "brewery_type": "Regional Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8d5c1af3e51b0c0bb1c50",
+    "bid": 84089,
+    "__v": 0,
+    "beer_abv": 0.5,
+    "beer_description": "Our golden-yellow, alcohol-free wheat beer tastes like a premium wheat beer: tangy, fresh and full-bodied, with hints of cloves and honey as well as a fine yeasty spirit. The unique wheat beer taste is achieved by a method developed in collaboration with the Technical University of Munich-Weihenstephan: the top fermentation is not interrupted and the beer has time to mature, only after the maturation the alcohol is carefully withdrawn. It is a first-class thirst quencher after sports or a good companion to light summer dishes, sweet and sour dishes, or fruit sorbets. Brewed according to our centuries-old brewing tradition on the Weihenstephan hill.",
+    "beer_ibu": 14,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-84089_61ece_sm.jpeg",
+    "beer_name": "Weihenstephaner Hefeweissbier Alkoholfrei",
+    "beer_slug": "bayerische-staatsbrauerei-weihenstephan-weihenstephaner-hefeweissbier-alkoholfrei",
+    "beer_style": "Non-Alcoholic Beer",
+    "brewery": {
+      "contact": {
+        "twitter": "weihenstephan",
+        "facebook": "http://www.facebook.com/weihenstephan",
+        "instagram": "weihenstephan_official",
+        "url": "http://www.weihenstephaner.de"
+      },
+      "location": {
+        "brewery_city": "Freising",
+        "brewery_state": "Bayern",
+        "lat": 48.3953,
+        "lng": 11.7289
+      },
+      "_id": "5fb81104af3e51b0c08bc2bd",
+      "brewery_id": 88,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-88_ae3c3.jpeg",
+      "brewery_name": "Bayerische Staatsbrauerei Weihenstephan",
+      "brewery_page_url": "/weihenstephaner",
+      "brewery_slug": "bayerische-staatsbrauerei-weihenstephan",
+      "brewery_type": "Regional Brewery",
+      "country_name": "Germany"
+    },
+    "in_production": 1,
+    "wish_list": false
+  },
+  {
+    "auth_rating": 0,
+    "_id": "5fb8013daf3e51b0c086f60c",
+    "bid": 2563982,
+    "__v": 0,
+    "beer_abv": 5.5,
+    "beer_description": "Hazy Pale ale. ",
+    "beer_ibu": 0,
+    "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-2563982_67a96_sm.jpeg",
+    "beer_name": "Who Cooks For You",
+    "beer_slug": "jackie-os-brewery-who-cooks-for-you",
+    "beer_style": "Pale Ale - New England",
+    "brewery": {
+      "contact": {
+        "twitter": "jackieosbrewery",
+        "facebook": "http://www.facebook.com/JackieOsBrewery",
+        "instagram": "jackieosbrewery",
+        "url": "http://www.jackieos.com"
+      },
+      "location": {
+        "brewery_city": "Athens",
+        "brewery_state": "OH",
+        "lat": 39.3317,
+        "lng": -82.091
+      },
+      "_id": "5fb8013baf3e51b0c086f50b",
+      "brewery_id": 5083,
+      "__v": 0,
+      "brewery_active": 1,
+      "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-5083_11517.jpeg",
+      "brewery_name": "Jackie O's Brewery",
+      "brewery_page_url": "/JackieOsBrewery",
+      "brewery_slug": "jackie-o-s-brewery",
+      "brewery_type": "Micro Brewery",
+      "country_name": "United States"
+    },
+    "in_production": 1,
+    "wish_list": false
+  }
+]
