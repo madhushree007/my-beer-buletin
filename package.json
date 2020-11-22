@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --ignore-path .gitignore --write \"**/*.(js|ts|json|tsx)\"",
-    "test": "jest --watchAll"
+    "test": "NODE_ENV=test jest --watchAll"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.10",
@@ -39,7 +39,9 @@
     "@testing-library/react": "^11.2.2",
     "eslint": "^7.13.0",
     "jest-expo": "^39.0.0",
-    "node-mocks-http": "^1.9.0"
+    "node-mocks-http": "^1.9.0",
+    "rewire": "^5.0.0",
+    "supertest": "^6.0.1"
   },
   "private": true,
   "comment": "The following config taken from https://blog.jmtalarn.com/running-node-js-react-tests-same-project/",
@@ -59,6 +61,10 @@
         "testEnvironment": "node",
         "testMatch": [
           "<rootDir>/server/**/*.test.js"
+        ],
+        "testPathIgnorePatterns": [
+          "<rootDir>/node_modules/",
+          "<rootDir>/server/config/"
         ]
       },
       {

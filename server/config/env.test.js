@@ -2,11 +2,11 @@ const db = {
   COMPASS_CONN_STR:
     'mongodb+srv://aaluni:{PASSWORD}@cluster0.4qfk7.mongodb.net/test',
   APP_CONN_STR:
-    'mongodb+srv://aaluni:Pa55w*rd@cluster0.4qfk7.mongodb.net/beerb?retryWrites=true&w=majority',
+    'mongodb+srv://aaluni:{PASSWORD}@cluster0.4qfk7.mongodb.net/beerbtest?retryWrites=true&w=majority',
 };
 
 const server = {
-  PORT: 3000,
+  PORT: 3001,
 };
 
 const untapped = {

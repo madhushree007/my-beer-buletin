@@ -1,4 +1,5 @@
-const env = require('../env');
+const stage = process.env.NODE_ENV || 'dev';
+const env = require(`../config/env.${stage}.js`);
 const secret = require('../secret');
 const axios = require('axios');
 const Beer = require('../models/beers');

@@ -4,13 +4,12 @@ const searchAndUpdate = require('../utils/populateData');
 exports.getBeers = async (req, res, next) => {
   try {
     const beers = await Beer.find();
-    console.log(beers);
     res
       .status(200)
       .json({ status: 'success', count: beers.length, data: { beers } });
   } catch (err) {
     console.log('error', err); // eslint-disable-line no-console
-    res.status(500);
+    res.status(500).json({ status: 'fail', error: err.message });
   }
 };
 
@@ -58,7 +57,7 @@ exports.getBeersByName = async (req, res) => {
   }
 };
 
-const searchBeersInDb = async (searchStr, page, limit) => {
+let searchBeersInDb = async (searchStr, page, limit) => {
   const rx = new RegExp(searchStr, 'ig');
   const beers = await Beer.find({ beer_name: rx })
     .populate('brewery')

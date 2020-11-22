@@ -4,7 +4,8 @@ const app = express();
 // const db = require('./models');
 const router = require('./router');
 const mongoose = require('mongoose');
-const env = require('./env');
+const stage = process.env.NODE_ENV || 'dev';
+const env = require(`./config/env.${stage}.js`);
 const secrets = require('./secret');
 
 // app.use(cors());
@@ -14,7 +15,7 @@ app.use(router);
 (async () => {
   try {
     mongoose
-      .connect(env.db.APP_CONN_STR.replace('{PASSWORD', secrets.DB_PASSWORD), {
+      .connect(env.db.APP_CONN_STR.replace('{PASSWORD}', secrets.DB_PASSWORD), {
         useNewUrlParser: true,
         useCreateIndex: true,
         useFindAndModify: false,
@@ -30,3 +31,5 @@ app.use(router);
     console.error('Error connecting to the db', e); // eslint-disable-line no-console
   }
 })();
+
+module.exports = app;
