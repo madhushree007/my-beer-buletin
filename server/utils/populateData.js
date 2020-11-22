@@ -20,17 +20,17 @@ const searchAndUpdate = async (searchStr, offset, limit) => {
     // console.log(res)
     const beers = res.data.response.beers.items;
     // console.log(beers)
-    for (b of beers) {
-      beer = b.beer;
-      brewery = b.brewery;
-      savedBrewery = await Brewery.findOneAndUpdate(
+    for (let b of beers) {
+      let beer = b.beer;
+      let brewery = b.brewery;
+      const savedBrewery = await Brewery.findOneAndUpdate(
         { brewery_id: brewery.brewery_id },
         brewery,
         { new: true, upsert: true },
       );
       console.log('Brewery Saved', savedBrewery._id);
       beer.brewery = savedBrewery._id;
-      savedBeer = await Beer.findOneAndUpdate({ bid: beer.bid }, beer, {
+      const savedBeer = await Beer.findOneAndUpdate({ bid: beer.bid }, beer, {
         new: true,
         upsert: true,
       });

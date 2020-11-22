@@ -8,7 +8,9 @@
     "web": "react-app-rewired start",
     "eject": "expo eject",
     "lint": "eslint .",
-    "prettier": "prettier --ignore-path .gitignore --write \"**/*.(js|ts|json|tsx)\""
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --ignore-path .gitignore --write \"**/*.(js|ts|json|tsx)\"",
+    "test": "jest --watchAll"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.10",
@@ -36,7 +38,44 @@
     "@react-native-community/eslint-config": "^2.0.0",
     "@testing-library/react": "^11.2.2",
     "eslint": "^7.13.0",
-    "jest-expo": "^39.0.0"
+    "jest-expo": "^39.0.0",
+    "node-mocks-http": "^1.9.0"
   },
-  "private": true
+  "private": true,
+  "comment": "The following config taken from https://blog.jmtalarn.com/running-node-js-react-tests-same-project/",
+  "jest": {
+    "verbose": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/*.test.js",
+      "!**/coverage/**",
+      "!**/serviceWorker.js",
+      "!**/index.js"
+    ],
+    "projects": [
+      {
+        "displayName": "backend",
+        "testEnvironment": "node",
+        "testMatch": [
+          "<rootDir>/server/**/*.test.js"
+        ]
+      },
+      {
+        "displayName": "frontend",
+        "testEnvironment": "jsdom",
+        "testMatch": [
+          "<rootDir>/app/**/*.test.js"
+        ],
+        "moduleFileExtensions": [
+          "js",
+          "json"
+        ],
+        "moduleNameMapper": {
+          "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+          "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+        }
+      }
+    ]
+  }
 }
