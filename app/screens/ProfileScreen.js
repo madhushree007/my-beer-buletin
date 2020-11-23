@@ -11,7 +11,7 @@ import {
   Thumbnail
 } from 'native-base';
 import React, { useEffect, useState } from 'react';
-import { TouchableOpacity } from 'react-native';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 import { getBeers } from '../apiService';
 // import data from '../../data.json';
 import Bottom from '../components/Bottom';

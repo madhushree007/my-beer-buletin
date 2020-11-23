@@ -5,18 +5,17 @@ import {
   CardItem,
   Container,
   Content,
-  Header,
   Icon,
   Left,
   Right,
   Text
 } from 'native-base';
 import React from 'react';
+import { Image } from 'react-native';
 
 function DetailsScreen({ navigation, route }) {
   return (
     <Container>
-      <Header />
       <Content>
         <Card>
           <CardItem>
