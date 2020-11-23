@@ -4,9 +4,9 @@ import {
   StyleSheet,
   Text,
   TouchableOpacity,
-  View } from 'react-native';
-
-function HomeScreen ({ navigation }) {
+  View
+} from 'react-native';
+function HomeScreen({ navigation }) {
   return (
     <ImageBackground
       style={styles.background}

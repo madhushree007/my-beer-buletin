@@ -1,4 +1,4 @@
-GET http://localhost:3000/beers/search?str=me&page=a&limit=b HTTP/1.1
+GET http://localhost:3000/beers/search?str=js&page=a&limit=b HTTP/1.1
 
 ###
 GET http://localhost:3000/beers/9275 HTTP/1.1
