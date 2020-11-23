@@ -1,30 +1,30 @@
-import 'react-native-gesture-handler';
-import React, { useEffect, useState } from 'react';
+import { Ionicons } from '@expo/vector-icons';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { StyleSheet, Text, View } from 'react-native';
+import * as Font from 'expo-font';
+import React, { useEffect, useState } from 'react';
+import { StyleSheet } from 'react-native';
+import 'react-native-gesture-handler';
+import DetailsScreen from './app/screens/DetailsScreen';
 import HomeScreen from './app/screens/HomeScreen';
 import ProfileScreen from './app/screens/ProfileScreen';
-import DetailsScreen from './app/screens/DetailsScreen';
-import * as Font from 'expo-font';
-import { Ionicons } from '@expo/vector-icons';
 
 const Stack = createStackNavigator();
 
 export default function App() {
+  // eslint-disable-next-line no-unused-vars
   const [isReady, setIsReady] = useState(false);
   useEffect(() => {
-    const getFonts = async() => {
+    const getFonts = async () => {
       await Font.loadAsync({
         Roboto: require('native-base/Fonts/Roboto.ttf'),
         Roboto_medium: require('native-base/Fonts/Roboto_medium.ttf'),
         ...Ionicons.font,
       });
-    }
-  getFonts();
-  setIsReady(true);
-
-  })
+    };
+    getFonts();
+    setIsReady(true);
+  }, []);
   return (
     <NavigationContainer>
       <Stack.Navigator>

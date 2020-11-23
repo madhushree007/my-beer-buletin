@@ -1,13 +1,24 @@
-import React, { useState, useEffect} from 'react';
+import {
+  Body,
+  Button,
+  Container,
+  Content,
+  Left,
+  List,
+  ListItem,
+  Right,
+  Text,
+  Thumbnail
+} from 'native-base';
+import React, { useEffect, useState } from 'react';
 import { TouchableOpacity } from 'react-native';
-import { Container, Content, List, ListItem, Thumbnail, Text, Left, Body, Right, Button } from 'native-base';
 import data from '../../data.json';
 
-function ProfileScreen ({ navigation, route }) {
+function ProfileScreen({ navigation, route }) {
   const [lists, setLists] = useState([]);
   useEffect(() => {
-    setLists(data)
-  })
+    setLists(data);
+  }, []);
   return (
     <Container>
       <Content>
@@ -19,12 +30,15 @@ function ProfileScreen ({ navigation, route }) {
                   onPress={() => {
                     navigation.navigate('Details', { id: item._id });
                   }}
-                ><Thumbnail square source={{ uri: item.beer_label }} />
+                >
+                  <Thumbnail square source={{ uri: item.beer_label }} />
                 </TouchableOpacity>
               </Left>
               <Body>
                 <Text>{item.beerName}</Text>
-                <Text note numberOfLines={1}>{item.beer_slug}</Text>
+                <Text note numberOfLines={1}>
+                  {item.beer_slug}
+                </Text>
               </Body>
               <Right>
                 <Button transparent>
@@ -32,14 +46,10 @@ function ProfileScreen ({ navigation, route }) {
                 </Button>
               </Right>
             </ListItem>
-
           </List>
-          
         ))}
-
       </Content>
     </Container>
-  
   );
 }
 export default ProfileScreen;

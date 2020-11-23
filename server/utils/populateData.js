@@ -29,13 +29,13 @@ const searchAndUpdate = async (searchStr, offset, limit) => {
         brewery,
         { new: true, upsert: true },
       );
-      console.log('Brewery Saved', savedBrewery._id);
+      // console.log('Brewery Saved', savedBrewery._id);
       beer.brewery = savedBrewery._id;
       const savedBeer = await Beer.findOneAndUpdate({ bid: beer.bid }, beer, {
         new: true,
         upsert: true,
       });
-      console.log('Beer Saved', savedBeer._id);
+      // console.log('Beer Saved', savedBeer._id);
     }
   } catch (err) {
     console.log('Error', err);
