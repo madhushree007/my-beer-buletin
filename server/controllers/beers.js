@@ -3,7 +3,7 @@ const searchAndUpdate = require('../utils/populateData');
 
 exports.getBeers = async (req, res, next) => {
   try {
-    const beers = await Beer.find();
+    const beers = await Beer.find().limit(2);
     res
       .status(200)
       .json({ status: 'success', count: beers.length, data: { beers } });

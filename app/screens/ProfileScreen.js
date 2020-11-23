@@ -1,7 +1,7 @@
 import {
   Body,
   Button,
-
+  Container,
   Content,
   Left,
   List,
@@ -33,23 +33,22 @@ function ProfileScreen({ navigation, route }) {
   //   setLoading(false);
   // });
   return (
-    <>
+    <Container>
       <Content>
         {loading ? (
           <Text>Loading...</Text>
         ) : (
           lists.map(item => (
             <List key={item._id}>
-              
-                <ListItem thumbnail>
-                  <Left>
-                    <TouchableOpacity
+              <TouchableOpacity
                 onPress={() => {
+                  console.log('Clicked');
                   navigation.navigate('Details', { id: item._id });
                 }}
               >
+                <ListItem thumbnail>
+                  <Left>
                     <Thumbnail square source={{ uri: item.beer_label }} />
-                    </TouchableOpacity>
                   </Left>
                   <Body>
                     <Text>{item.beerName}</Text>
@@ -63,11 +62,13 @@ function ProfileScreen({ navigation, route }) {
                     </Button>
                   </Right>
                 </ListItem>
-              
+              </TouchableOpacity>
             </List>
           ))
         )}
       </Content>
       <Bottom />
-    </}
+    </Container>
+  );
+}
 export default ProfileScreen;
