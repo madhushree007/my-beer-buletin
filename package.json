@@ -17,6 +17,7 @@
     "@react-navigation/native": "^5.8.10",
     "@react-navigation/stack": "^5.12.8",
     "axios": "^0.21.0",
+    "babel-jest": "^26.6.3",
     "expo": "~39.0.2",
     "expo-font": "~8.3.0",
     "expo-status-bar": "~1.0.2",
@@ -36,10 +37,12 @@
   "devDependencies": {
     "@babel/core": "~7.9.0",
     "@react-native-community/eslint-config": "^2.0.0",
-    "@testing-library/react": "^11.2.2",
+    "@testing-library/jest-native": "^3.4.3",
+    "@testing-library/react-native": "^7.1.0",
     "eslint": "^7.13.0",
     "jest-expo": "^39.0.0",
     "node-mocks-http": "^1.9.0",
+    "react-test-renderer": "^17.0.1",
     "rewire": "^5.0.0",
     "supertest": "^6.0.1"
   },
@@ -47,6 +50,11 @@
   "comment": "The following config taken from https://blog.jmtalarn.com/running-node-js-react-tests-same-project/",
   "jest": {
     "verbose": true,
+    "preset": "jest-expo",
+    "globals": {"__DEV__": true},
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
     "collectCoverageFrom": [
       "**/*.{js,jsx}",
       "!**/node_modules/**",
@@ -64,12 +72,16 @@
         ],
         "testPathIgnorePatterns": [
           "<rootDir>/node_modules/",
-          "<rootDir>/server/config/"
+          "<rootDir>/server/config/",
+          "<rootDir>/server/"
         ]
       },
       {
         "displayName": "frontend",
-        "testEnvironment": "jsdom",
+        "verbose": true,
+        "setupFilesAfterEnv": [
+          "@testing-library/jest-native/extend-expect"
+        ],
         "testMatch": [
           "<rootDir>/app/**/*.test.js"
         ],
@@ -77,10 +89,9 @@
           "js",
           "json"
         ],
-        "moduleNameMapper": {
-          "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-          "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
-        }
+        "transformIgnorePatterns": [
+          "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*|native-base-*)"
+        ]
       }
     ]
   }
