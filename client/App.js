@@ -7,7 +7,9 @@ import { StyleSheet } from 'react-native';
 import 'react-native-gesture-handler';
 import DetailsScreen from './app/screens/DetailsScreen';
 import HomeScreen from './app/screens/HomeScreen';
-import ProfileScreen from './app/screens/ProfileScreen';
+import LoginScreen from './app/screens/LoginScreen';
+import PostReview from './app/screens/PostReview';
+import WelcomeScreen from './app/screens/WelcomeScreen';
 
 const Stack = createStackNavigator();
 
@@ -29,12 +31,18 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="Home"
-          component={HomeScreen}
-          options={{ title: 'Welcome' }}
+          name="Welcome"
+          component={WelcomeScreen}
+          options={{ headerShown: false }}
         />
-        <Stack.Screen name="Profile" component={ProfileScreen} />
+        <Stack.Screen
+          name="Login"
+          component={LoginScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Details" component={DetailsScreen} />
+        <Stack.Screen name="PostReview" component={PostReview} />
       </Stack.Navigator>
     </NavigationContainer>
   );

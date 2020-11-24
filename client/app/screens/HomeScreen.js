@@ -1,47 +1,68 @@
-import React from 'react';
 import {
-  ImageBackground,
-  StyleSheet,
+  Body,
+  Button,
+  Container,
+  Content,
+  Left,
+  List,
+  ListItem,
+  Right,
   Text,
-  TouchableOpacity,
-  View
-} from 'react-native';
-function HomeScreen({ navigation }) {
+  Thumbnail
+} from 'native-base';
+import React, { useEffect, useState } from 'react';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import { getBeers } from '../apiService';
+// import data from '../../data.json';
+import Bottom from '../components/Bottom';
+function HomeScreen({ navigation, route }) {
+  const [lists, setLists] = useState([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    getBeers()
+      .then(result => {
+        setLists(result.data.beers);
+        setLoading(false);
+      })
+      .catch(err => console.error(err));
+  }, []);
   return (
-    <ImageBackground
-      style={styles.background}
-      source={require('../assets/bg.jpg')}
-    >
-      <TouchableOpacity
-        onPress={() => {
-          navigation.navigate('Profile', { name: 'ggg' });
-        }}
-      >
-        <View style={styles.loginButton}>
-          <Text style={styles.buttonText}>Login</Text>
-        </View>
-      </TouchableOpacity>
-    </ImageBackground>
+    <Container>
+      <Content>
+        {loading ? (
+          <Text>Loading...</Text>
+        ) : (
+          lists.map(item => (
+            <List key={item._id}>
+              <TouchableOpacity
+                onPress={() => {
+                  console.log('Clicked');
+                  navigation.navigate('Details', { id: item.bid });
+                }}
+              >
+                <ListItem thumbnail>
+                  <Left>
+                    <Thumbnail square source={{ uri: item.beer_label }} />
+                  </Left>
+                  <Body>
+                    <Text>{item.beerName}</Text>
+                    <Text note numberOfLines={1}>
+                      {item.beer_slug}
+                    </Text>
+                  </Body>
+                  <Right>
+                    <Button transparent>
+                      <Text>View</Text>
+                    </Button>
+                  </Right>
+                </ListItem>
+              </TouchableOpacity>
+            </List>
+          ))
+        )}
+      </Content>
+      <Bottom />
+    </Container>
   );
 }
-const styles = StyleSheet.create({
-  background: {
-    flex: 1,
-    justifyContent: 'flex-end',
-  },
-  loginButton: {
-    width: '100%',
-    height: 70,
-    backgroundColor: '#2F4858',
-  },
-  RegisterButton: {
-    width: '100%',
-    height: 70,
-    backgroundColor: '#33658A',
-  },
-  buttonText: {
-    color: 'white',
-    textAlign: 'center',
-  },
-});
 export default HomeScreen;

@@ -5,51 +5,74 @@ import {
   CardItem,
   Container,
   Content,
-  Icon,
   Left,
   Right,
-  Text
+  Text,
+  View
 } from 'native-base';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Image } from 'react-native';
+import { getBeerByID } from '../apiService';
+import Bottom from '../components/Bottom';
 function DetailsScreen({ navigation, route }) {
+  const [beer, setBeer] = useState({});
+
+  useEffect(() => {
+    getBeerByID(route.params.id).then(data => setBeer(data.beer));
+  }, []);
   return (
     <Container>
       <Content>
-        <Card>
-          <CardItem>
-            <Left>
-              <Body>
-                <Text>Test</Text>
-                <Text note>Test</Text>
-              </Body>
-            </Left>
+        <Card style={{ justifyContent: 'center' }}>
+          <CardItem header>
+            <Text>{beer.beer_name}</Text>
           </CardItem>
           <CardItem cardBody>
             <Image
-              source={require('../assets/bg.jpg')}
-              style={{ height: 200, width: null, flex: 1 }}
+              source={{ uri: beer.beer_label }}
+              style={{
+                height: 200,
+                width: 100,
+                flex: 1,
+                borderRadius: 200 / 2,
+              }}
             />
           </CardItem>
           <CardItem>
             <Left>
-              <Button transparent>
-                <Icon active name="thumbs-up" />
-                <Text>12 Likes</Text>
-              </Button>
+              <Body>
+                <Text numberOfLines={4}>{beer.beer_description}</Text>
+              </Body>
             </Left>
-            <Body>
-              <Button transparent>
-                <Icon active name="chatbubbles" />
-                <Text>4 Comments</Text>
-              </Button>
-            </Body>
-            <Right>
-              <Text>11h ago</Text>
-            </Right>
+          </CardItem>
+          <CardItem>
+            <Button
+              onPress={() => {
+                navigation.navigate('PostReview');
+              }}
+            >
+              <Text>Post A Review</Text>
+            </Button>
+          </CardItem>
+        </Card>
+        <View>
+          <Text>Reviews</Text>
+        </View>
+        <Card>
+          <CardItem>
+            <Text>
+              The review text will show here.....sdasdas dfsdThe review text
+              will show here.....
+            </Text>
+            <View>
+              <Right>
+                <Text>Madhushree Gupta</Text>
+              </Right>
+            </View>
           </CardItem>
         </Card>
       </Content>
+      <Bottom />
     </Container>
   );
 }
