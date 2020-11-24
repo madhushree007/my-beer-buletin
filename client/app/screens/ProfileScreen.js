@@ -49,7 +49,7 @@ function ProfileScreen({ navigation, route }) {
                     <Thumbnail square source={{ uri: item.beer_label }} />
                   </Left>
                   <Body>
-                    <Text>{item.beer_name}</Text>
+                    <Text accessibilityHint={item.bid}>{item.beer_name}</Text>
                     <Text note numberOfLines={1}>
                       {item.beer_slug}
                     </Text>
