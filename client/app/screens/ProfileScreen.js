@@ -24,7 +24,7 @@ function ProfileScreen({ navigation, route }) {
         setLists(result.data.beers);
         setLoading(false);
       })
-      .catch(err => console.error(err));
+      .catch(err => console.log(err));
   }, []);
   // useEffect(() => {
   //   setLists(data);
@@ -34,10 +34,10 @@ function ProfileScreen({ navigation, route }) {
     <Container>
       <Content>
         {loading ? (
-          <Text>Loading...</Text>
+          <Text testID="loading">Loading...</Text>
         ) : (
           lists.map(item => (
-            <List key={item._id}>
+            <List key={item._id} testID={item._id}>
               <TouchableOpacity
                 onPress={() => {
                   console.log('Clicked');
@@ -49,7 +49,7 @@ function ProfileScreen({ navigation, route }) {
                     <Thumbnail square source={{ uri: item.beer_label }} />
                   </Left>
                   <Body>
-                    <Text>{item.beerName}</Text>
+                    <Text>{item.beer_name}</Text>
                     <Text note numberOfLines={1}>
                       {item.beer_slug}
                     </Text>
