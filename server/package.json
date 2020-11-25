@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --ignore-path .gitignore --write \"**/*.(js|ts|json|tsx)\"",
-    "test": "NODE_ENV=testing jest --watchAll"
+    "test": "NODE_ENV=testing jest"
   },
   "dependencies": {
     "axios": "^0.21.0",
@@ -20,6 +20,9 @@
     "jest": "^26.6.3",
     "node-mocks-http": "^1.9.0",
     "rewire": "^5.0.0",
+    "sinon": "^7.5.0",
+    "sinon-as-promised": "^4.0.3",
+    "sinon-mongoose": "^2.3.0",
     "supertest": "^6.0.1"
   },
   "jest": {
@@ -27,7 +30,8 @@
     "testEnvironment": "node",
     "testPathIgnorePatterns": [
       "<rootDir>/node_modules/",
-      "<rootDir>/server/config/"
+      "<rootDir>/server/config/",
+      "<rootDir>/__tests__/mock-data/*"
     ]
   },
   "keywords": [],

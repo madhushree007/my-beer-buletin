@@ -1,19 +1,20 @@
-const rewire = require('rewire');
+var sinon = require('sinon');
+var mongoose = require('mongoose');
+require('sinon-mongoose')
 const RevieController = require('../../controllers/reviews');
 
-const ReviewModel = require('../../models/beers');
+const ReviewModel = require('../../models/review');
 const httpMocks = require('node-mocks-http');
 const reviewMock = require('../mock-data/review-db-mock.json');
 const reviewMockResponse = require('../mock-data/review-res-mock.json');
+const reviewMocks = require('../mock-data/reviewMock');
+const Review = require('../../models/review');
 
-
-ReviewModel.find = jest.fn();
-jest.mock('../../utils/populateData');
 let req, res, next;
 beforeEach(() => {
   req = httpMocks.createRequest();
   res = httpMocks.createResponse();
-  next = null;
+  next = jest.fn();
 });
 
 describe('RevieController methods check', () => {
@@ -32,41 +33,85 @@ describe('ReviewController getReviewsForBeer unit test', () => {
   beforeEach(() => {
     // Set common code for the group here
   });
-  it.only('Should call find, return a status code of 200 and an ooject list', async () => {
+  it('Should call find, return a status code of 200 and an ooject list', async () => {
     req.params.bid = 3
-    ReviewModel.find.mockReturnValue(reviewMock);
-    await RevieController.getReviewsForBeer(req, res, next);
+    const expectations = sinon.mock(ReviewModel)
+      .expects('find')
+      .chain('sort')
+      .withArgs('-created_at')
+      .chain('exec')
+      .resolves(reviewMock);
 
-    expect(ReviewModel.find).toBeCalled();
+    await RevieController.getReviewsForBeer(req, res, next);
+    
+    expectations.once();
     expect(res.statusCode).toBe(200);
     expect(res._isEndCalled()).toBeTruthy();
-    // This does not work as the reference are not same
-    // expect(res._getJSONData()).toBe(reviewMockResponse);
-    // Strict equals to compare object equality not memory ref
     expect(res._getJSONData()).toStrictEqual(reviewMockResponse);
-  }, 5000);
+  }, 10000);
 });
 
-// describe('ReviewController upDownVote unit testing', () => {
-//   beforeEach(() => {
-//     // RevieController.
-//   });
-//   it('Should call upDownVote providing a searchString and get a list of beers', async () => {
-//     //Create a Jest mock
-//     const searchBeersInDBMock = jest.fn();
-//     searchBeersInDBMock.mockReturnValue(reviewMockResponse);
-//     // Mock the API call
-//     searchAndUpdate.mockResolvedValue(null);
-//     // Set the private function mock
-//     RewiredRevieController.__set__('searchBeersInDb', searchBeersInDBMock);
-//     // Set query param mocks
-//     const searchStr = 'searchstring';
-//     req.query.str = searchStr;
+describe('ReviewController upDownVote unit testing', () => {
+  beforeEach(() => {
+    // RevieController.
+  });
+  it('Should call upDownVote providing a reviewid and get a valid review response', async () => {
+    //Create a Jest mock
+    ReviewModel.findOneAndUpdate = jest.fn();
+    ReviewModel.findOneAndUpdate.mockReturnValue(reviewMocks.reviewUpVoteDbMockRes);
+    req.params.reviewId = '5fbd4336b4c24e042a9afd3b';
+    req.params.direction = 'up';
+    await RevieController.upDownVote(req, res, next);
 
-//     await RewiredRevieController.upDownVote(req, res);
-//     expect(searchBeersInDBMock).toHaveBeenCalledWith(searchStr, 0, 50);
-//     expect(res.statusCode).toBe(200);
-//     expect(res._isEndCalled()).toBeTruthy();
-//     expect(res._getJSONData()).toMatchSnapshot();
-//   });
-// });
+    expect(ReviewModel.findOneAndUpdate).toBeCalled();
+    expect(ReviewModel.findOneAndUpdate).toHaveBeenCalledWith(
+      {_id:'5fbd4336b4c24e042a9afd3b'}, 
+      {$inc:{like_count:1}}, 
+      {new: true}
+    );
+    expect(res.statusCode).toBe(200);
+    expect(res._isEndCalled()).toBeTruthy();
+    expect(res._getData()).toStrictEqual(reviewMocks.reviewUpVoteDbMockRes);
+  });
+
+  it('Should call upDownVote providing a reviewid and get a valid review response', async () => {
+
+    ReviewModel.findOneAndUpdate = jest.fn();
+    req.params.reviewId = '5fbd4336b4c24e042a9afd3b';
+    req.params.direction = 'upd';
+    await RevieController.upDownVote(req, res, next);
+
+    expect(ReviewModel.findOneAndUpdate).not.toBeCalled();
+    expect(next).toHaveBeenCalledWith(new Error(`invalid direction: ${req.params.direction}`));
+
+  });
+
+  it('Should be able to post a new review and get a valid response', async () => {
+    ReviewModel.create = jest.fn();
+    ReviewModel.create.mockReturnValue(reviewMocks.reviewPostResMock);
+
+    req.body = reviewMocks.reviewPostReqMock
+
+    await RevieController.postReview(req, res, next);
+
+    expect(ReviewModel.create).toHaveBeenCalledWith(
+      req.body
+    );    
+
+    expect(res.statusCode).toBe(201);
+    expect(res._isEndCalled()).toBeTruthy();
+    expect(res._getData()).toStrictEqual(reviewMocks.reviewPostResMock);
+  });
+
+  it('Should return error when body is undefined', async () => {
+    ReviewModel.create = jest.fn();
+    ReviewModel.create.mockReturnValue(reviewMocks.reviewPostResMock);
+
+    req.body = undefined;
+    await RevieController.postReview(req, res, next);
+
+    expect(ReviewModel.create).not.toBeCalled();
+    expect(next).toHaveBeenCalledWith(new Error('No review content to save'));
+
+  });
+});

@@ -5,8 +5,8 @@ const searchAndUpdate = require('../utils/populateData');
 exports.getReviewsForBeer = async (req, res, next) => {
   const beerId = req.params.bid;
   try {
-    if (!beerId) throw new Error('No beer id provided to get the review for')
-    const reviews = await Review.find({bid:beerId}).sort([['created_at', -1]]);
+    if (!beerId) throw new Error('No beer id provided to get the review for').statusCode(400)
+    const reviews = await Review.find({bid:beerId}).sort('-created_at').exec();
     res
       .status(200)
       .json({ status: 'success', count: reviews.length, data: { reviews } });
@@ -36,7 +36,7 @@ exports.upDownVote = async (req, res, next) => {
     if (!reviewId || !direction) throw new Error('Review Id or direction missing')
     if (!((direction === 'up') || (direction === 'down'))) throw new Error(`invalid direction: ${direction}`)
     const review = await Review.findOneAndUpdate({_id:reviewId}, {$inc:{like_count:inc}}, {new: true})
-    res.status(201);
+    res.status(200);
     res.send(review);
   } catch (err) {
     next(err)
