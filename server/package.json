@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --ignore-path .gitignore --write \"**/*.(js|ts|json|tsx)\"",
+    "test": "NODE_ENV=testing jest --watchAll"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "jest": "^26.6.3",
+    "node-mocks-http": "^1.9.0",
+    "rewire": "^5.0.0",
+    "supertest": "^6.0.1"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/server/config/"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

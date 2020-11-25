@@ -1,7 +1,24 @@
-GET http://localhost:3000/beers/search?str=me&page=a&limit=b HTTP/1.1
+GET http://localhost:3000/beers/search?str=js&page=a&limit=b HTTP/1.1
 
 ###
 GET http://localhost:3000/beers/9275 HTTP/1.1
 
 ###
 GET http://localhost:3000/beers HTTP/1.1
+
+###
+GET http://localhost:3000/reviews/3 HTTP/1.1
+
+###
+
+POST http://localhost:3000/reviews HTTP/1.1
+content-type: application/json
+
+{
+  "bid": 3,
+  "user_name": "Someone Else",
+  "review": "A superb Beer recently tested....Aha!!"
+}
+###
+
+GET http://localhost:3000/reviews/5fbd4336b4c24e042a9afd3b/up HTTP/1.1

@@ -1,0 +1,40 @@
+{
+  "count": 2,
+  "data": {
+    "beers": [
+      {
+        "__v": 0,
+        "_id": "5fb800f3af3e51b0c086e60a",
+        "auth_rating": 0,
+        "beer_abv": 6.5,
+        "beer_description": "This voluminously hopped mutha delivers a hoppy nose and assertive-but-balanced flavors of pale malts and citrusy floral hops from start to finish. Oskar Blues launched its canning ops in 2002, brewing and hand-canning Dale’s Pale Ale in the Lyons, Colorado, brewpub. America’s first-craft-canned mountain pale is a hearty, critically acclaimed trailblazer that changed the way craft beer fiends perceive portable beer \r\n",
+        "beer_ibu": 65,
+        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-10759_1cfd8_sm.jpeg",
+        "beer_name": "Dale's Pale Ale",
+        "beer_slug": "oskar-blues-brewery-dales-pale-ale",
+        "beer_style": "Pale Ale - American",
+        "bid": 10759,
+        "brewery": "5fb7ff73af3e51b0c0866b37",
+        "in_production": 1,
+        "wish_list": false
+      },
+      {
+        "__v": 0,
+        "_id": "5fb800faaf3e51b0c086e6f0",
+        "auth_rating": 0,
+        "beer_abv": 4.9,
+        "beer_description": "At 4.9% ABV and 35 IBUs, this drinkable IPA uses several varieties of hops to target the ever-evolving flavor. With tropical fruits, citrus juices, pineapple and spice berry up front in the aroma and flavor, the biscuit & toasted bread at the back balance out all the hops and make a great finish to go on to your next can of PINNER. It’s the perfect beer for a little sip, sip, give. ",
+        "beer_ibu": 35,
+        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-912790_01590_sm.jpeg",
+        "beer_name": "Pinner",
+        "beer_slug": "oskar-blues-brewery-pinner",
+        "beer_style": "IPA - Session / India Session Ale",
+        "bid": 912790,
+        "brewery": "5fb7ff73af3e51b0c0866b37",
+        "in_production": 1,
+        "wish_list": false
+      }
+    ]
+  },
+  "status": "success"
+}
