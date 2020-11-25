@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "count": 2,
+  "data": {
+    "reviews": [
+      {
+        "like_count": 0,
+        "_id": "5fbd46c80a9d630c904a2be0",
+        "bid": 3,
+        "user_name": "Someone Else",
+        "review": "A superb Beer recently tested....Aha!!",
+        "__v": 0
+      },
+      {
+        "like_count": 2,
+        "_id": "5fbd4336b4c24e042a9afd3b",
+        "bid": 3,
+        "user_name": "Someone",
+        "review": "A superb Beer recently tested",
+        "__v": 0
+      }
+    ]
+  }
+}
