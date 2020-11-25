@@ -34,6 +34,10 @@ const searchAndUpdate = async (searchStr, offset, limit) => {
         upsert: true,
       });
       // console.log('Beer Saved', savedBeer._id);
+      return beers.map(b =>{
+        b.beer.brewery = b.brewery; 
+        return b
+      })
     }
   } catch (err) {
     console.log('Error', err);

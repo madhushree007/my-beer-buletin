@@ -1,5 +1,5 @@
 const Beer = require('../models/beers');
-const searchAndUpdate = require('../utils/populateData');
+let searchAndUpdate = require('../utils/populateData');
 
 exports.getBeers = async (req, res, next) => {
   try {
@@ -43,9 +43,11 @@ exports.getBeersByName = async (req, res) => {
     if (searchStr.trim() === '') {
       throw new Error('Empty Search String');
     }
+    //Next line is open for integration testing purposes
     let beers = await searchBeersInDb(searchStr, page, limit);
-    if (beers.length < limit) {
-      await searchAndUpdate(searchStr, page + 1, limit);
+    beers = await searchAndUpdate(searchStr, page, limit);
+    if (beers.length === 0 ) {
+      // await searchAndUpdate(searchStr, page + 1, limit);
       beers = await searchBeersInDb(searchStr, page, limit);
     }
     res

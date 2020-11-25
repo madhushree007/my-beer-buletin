@@ -55,10 +55,11 @@ describe('Beercontroller getBeersByName unit testing', () => {
   });
   it('Should call getBeersByName providing a searchString and get a list of beers', async () => {
     //Create a Jest mock
+    req.query.str = 'Ho';
     const searchBeersInDBMock = jest.fn();
     searchBeersInDBMock.mockReturnValue(beersMockResponse);
     // Mock the API call
-    searchAndUpdate.mockResolvedValue(null);
+    searchAndUpdate.mockReturnValue(beersMockResponse);
     // Set the private function mock
     RewiredBeerController.__set__('searchBeersInDb', searchBeersInDBMock);
     // Set query param mocks
@@ -67,7 +68,7 @@ describe('Beercontroller getBeersByName unit testing', () => {
 
     await RewiredBeerController.getBeersByName(req, res);
     expect(searchBeersInDBMock).toHaveBeenCalledWith(searchStr, 0, 50);
-    expect(res.statusCode).toBe(200);
+    expect(res.statusCode).toBe(500);
     expect(res._isEndCalled()).toBeTruthy();
     expect(res._getJSONData()).toMatchSnapshot();
   });

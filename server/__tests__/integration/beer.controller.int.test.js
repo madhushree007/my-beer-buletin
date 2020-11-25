@@ -44,7 +44,7 @@ describe(`Integration Testing for ${endpointURL}`, () => {
     expect(res.status).toBe('success');
     expect(res.count).not.toBe(0);
     expect(res.data.beers.length).not.toBe(0);
-    console.log(response.body)
+    // console.log(response.body)
   });
 
   afterEach(async function () {
