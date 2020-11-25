@@ -2,22 +2,37 @@ import {
   Body,
   Button,
   Container,
-  Content,
+  Content, Form, Header, Icon,
+  Input,
+  Item,
   Left,
   List,
   ListItem,
   Right,
+
   Text,
   Thumbnail
 } from 'native-base';
 import React, { useEffect, useState } from 'react';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import { getBeers } from '../apiService';
+import { getBeers, searchBeerByName } from '../apiService';
 // import data from '../../data.json';
 import Bottom from '../components/Bottom';
 function HomeScreen({ navigation, route }) {
   const [lists, setLists] = useState([]);
+  const [searchText, setSearchText] = useState('');
   const [loading, setLoading] = useState(true);
+  
+  function handleSubmit(e) {
+    e.preventDefault();
+    setLoading(true);
+    searchBeerByName(searchText)
+      .then(result => setLists(result.data.beers))
+      .catch(err => console.error(err));
+    setLoading(false);
+    setSearchText('');
+  }
+  
   useEffect(() => {
     getBeers()
       .then(result => {
@@ -29,6 +44,24 @@ function HomeScreen({ navigation, route }) {
   return (
     <Container>
       <Content>
+        <Form>
+          <Header searchBar rounded>
+            
+          <Item>
+            <Icon name="ios-search" />
+            <Input 
+              placeholder="Search"
+              value={searchText} 
+              onChangeText={text => setSearchText(text)} />
+          </Item>
+          <Button transparent onPress={handleSubmit}>
+            <Text>Search</Text>
+          </Button>
+          
+        </Header>
+    </Form>    
+      
+
         {loading ? (
           <Text>Loading...</Text>
         ) : (
@@ -36,7 +69,6 @@ function HomeScreen({ navigation, route }) {
             <List key={item._id}>
               <TouchableOpacity
                 onPress={() => {
-                  console.log('Clicked');
                   navigation.navigate('Details', { id: item.bid });
                 }}
               >
