@@ -12,13 +12,15 @@ import {
 } from 'native-base';
 import React, { useEffect, useState } from 'react';
 import { Image, StyleSheet } from 'react-native';
-import { getBeerByID } from '../apiService';
+import { getBeerByID, getBeerReview } from '../apiService';
 import Bottom from '../components/Bottom';
 function DetailsScreen({ navigation, route }) {
   const [beer, setBeer] = useState({});
+  const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
     getBeerByID(route.params.id).then(data => setBeer(data.beer));
+    getBeerReview(route.params.id).then(result => setReviews(result.data.reviews))
   }, []);
   return (
     <Container>
@@ -48,7 +50,7 @@ function DetailsScreen({ navigation, route }) {
           <CardItem>
             <Button
               onPress={() => {
-                navigation.navigate('PostReview');
+                navigation.navigate('PostReview', { beer: beer.bid });
               }}
             >
               <Text>Post A Review</Text>
@@ -58,32 +60,30 @@ function DetailsScreen({ navigation, route }) {
         <View style={styles.reviewBox}>
           <Text style={{ fontSize: 30 }}>Reviews</Text>
         </View>
-        <Card>
-          <CardItem>
-            <Text>
-              The review text will show here.....sdasdas dfsdThe review text
-              will show here.....
-            </Text>
-          </CardItem>
-          <CardItem>
-            <Right>
-              <Text>Madhushree Gupta</Text>
-            </Right>
-          </CardItem>
+        {reviews.length === 0 && (
+           <Card>
+            <CardItem>
+              <Text>
+                "No review yet"
+              </Text>
+            </CardItem>
+          </Card>
+        )}
+        {reviews.map(review => (
+          <Card key={review._id}>
+            <CardItem>
+              <Text>
+                {review.review}
+              </Text>
+            </CardItem>
+            <CardItem>
+              <Right>
+                <Text>{review.user_name}</Text>
+              </Right>
+            </CardItem>
         </Card>
-        <Card>
-          <CardItem>
-            <Text>
-              The review text will show here.....sdasdas dfsdThe review text
-              will show here.....
-            </Text>
-          </CardItem>
-          <CardItem>
-            <Right>
-              <Text>Madhushree Gupta</Text>
-            </Right>
-          </CardItem>
-        </Card>
+        ))}
+       
       </Content>
       <Bottom />
     </Container>

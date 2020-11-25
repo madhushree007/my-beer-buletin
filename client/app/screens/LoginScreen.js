@@ -3,28 +3,24 @@ import {
   Container,
   Content,
   Form,
-  Input,
-  Item,
-  Label,
   Text,
+
+  Thumbnail,
+
   View
 } from 'native-base';
 import React from 'react';
 import { StyleSheet } from 'react-native';
-function DetailsScreen({ navigation, route }) {
+
+function LoginScreen({ navigation, route }) {
+  console.log(route.params);
   return (
     <Container style={{ backgroundColor: '#fda516' }}>
       <Content>
         <View style={{ width: 300, alignSelf: 'center', paddingTop: 80 }}>
+          <Text style={{textAlign: 'center', fontSize: 20, color: '#FFF', fontWeight: '600', paddingBottom: 20 }}> Welcome {route.params.userName}</Text>
+          <Thumbnail large source={{uri: route.params.photoURL}} style={{ alignSelf: 'center'}} />
           <Form>
-            <Item stackedLabel>
-              <Label>Username</Label>
-              <Input style={styles.fontStyle} />
-            </Item>
-            <Item stackedLabel last style={{ marginTop: 20 }}>
-              <Label>Password</Label>
-              <Input style={styles.fontStyle} />
-            </Item>
             <Button
               block
               onPress={() => {
@@ -35,7 +31,7 @@ function DetailsScreen({ navigation, route }) {
                 marginTop: 30,
               }}
             >
-              <Text style={{ color: '#fda516', fontWeight: '600' }}>Login</Text>
+              <Text style={{ color: '#fda516', fontWeight: '600' }}>Let's explore BEERS !!</Text>
             </Button>
           </Form>
         </View>
@@ -52,4 +48,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default DetailsScreen;
+export default LoginScreen;

@@ -11,6 +11,9 @@ import LoginScreen from './app/screens/LoginScreen';
 import PostReview from './app/screens/PostReview';
 import WelcomeScreen from './app/screens/WelcomeScreen';
 
+// Andriod ID = 125836658126-6cu0d8ev7a8fgafoo0bacp420ufnjjev.apps.googleusercontent.com
+// Ios id = 125836658126-ugma6ltitouscgu0flpbabp3qocc6ava.apps.googleusercontent.com
+
 const Stack = createStackNavigator();
 
 export default function App() {
