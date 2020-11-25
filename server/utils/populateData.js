@@ -6,8 +6,6 @@ const Beer = require('../models/beers');
 const Brewery = require('../models/brewery');
 
 const searchAndUpdate = async (searchStr, offset, limit) => {
-  console.log(env);
-  console.log(secret);
   try {
     const res = await axios.get(
       env.untapped.url

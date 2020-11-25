@@ -67,7 +67,7 @@ let searchBeersInDb = async (searchStr, page, limit) => {
   return beers;
 };
 
-exports.postBeers = async (req, res) => {
+/* exports.postBeers = async (req, res) => {
   try {
     const beersBody = req.body;
     const newBeers = await Beer.bulkCreate(beersBody, { returning: true });
@@ -77,4 +77,4 @@ exports.postBeers = async (req, res) => {
     console.log('e', e); // eslint-disable-line no-console
     res.status(500);
   }
-};
+}; */
