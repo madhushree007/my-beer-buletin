@@ -11,7 +11,7 @@ import {
   View
 } from 'native-base';
 import React, { useEffect, useState } from 'react';
-import { Image } from 'react-native';
+import { Image, StyleSheet } from 'react-native';
 import { getBeerByID } from '../apiService';
 import Bottom from '../components/Bottom';
 function DetailsScreen({ navigation, route }) {
@@ -55,8 +55,8 @@ function DetailsScreen({ navigation, route }) {
             </Button>
           </CardItem>
         </Card>
-        <View>
-          <Text>Reviews</Text>
+        <View style={styles.reviewBox}>
+          <Text style={{ fontSize: 30 }}>Reviews</Text>
         </View>
         <Card>
           <CardItem>
@@ -64,11 +64,24 @@ function DetailsScreen({ navigation, route }) {
               The review text will show here.....sdasdas dfsdThe review text
               will show here.....
             </Text>
-            <View>
-              <Right>
-                <Text>Madhushree Gupta</Text>
-              </Right>
-            </View>
+          </CardItem>
+          <CardItem>
+            <Right>
+              <Text>Madhushree Gupta</Text>
+            </Right>
+          </CardItem>
+        </Card>
+        <Card>
+          <CardItem>
+            <Text>
+              The review text will show here.....sdasdas dfsdThe review text
+              will show here.....
+            </Text>
+          </CardItem>
+          <CardItem>
+            <Right>
+              <Text>Madhushree Gupta</Text>
+            </Right>
           </CardItem>
         </Card>
       </Content>
@@ -76,4 +89,13 @@ function DetailsScreen({ navigation, route }) {
     </Container>
   );
 }
+
+const styles = StyleSheet.create({
+  reviewBox: {
+    paddingTop: 30,
+    paddingBottom: 20,
+    alignSelf: 'center',
+  },
+});
+
 export default DetailsScreen;
