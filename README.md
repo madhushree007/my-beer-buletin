@@ -14,5 +14,5 @@ The app which allow you to find your favorite Beer and get the details of the Br
 
 ## Contributors
 
-[Arindam Aluni](https://github.com/arindamaluni) | [LinkedIn](https://www.linkedin.com/in/aaluni/)
+[Arindam Aluni](https://github.com/arindamaluni) | [LinkedIn](https://www.linkedin.com/in/aaluni/) <br />
 [Madhushree Gupta](https://github.com/madhushree007) | [LinkedIn](https://www.linkedin.com/in/madhushree-gupta/)
